@@ -69,8 +69,9 @@ function openModalGallery(imageIDNumber) {
 	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
 	currentImage = imageIDNumber;
 
-	//upadte description
+	//upadte title
 	description.innerHTML = img.dataset.description;
+	title.innerHTML = img.dataset.title;
 
 	//update the buy button
 	//TODO: UPDATE THIS TO REFLECT NEW MODAL
@@ -152,7 +153,7 @@ previous.addEventListener("click", function(){
 next.addEventListener("click", function(){
 	nextModal(+1);
 }); 
-imageContainer.addEventListener("click", function(){
+image.addEventListener("click", function(){
 	if (!menuIsVisible){
 		modal.style.display = "none";
 		modalIsOpen = false;

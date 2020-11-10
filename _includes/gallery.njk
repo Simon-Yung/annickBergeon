@@ -54,7 +54,8 @@ request_text: "Tirage d'Art : jcpratt@orange.fr"
 		{%- for object in images_collection %}
 			<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
 			data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
-			data-external-link="{{object.link}}" 
+			data-external-link="{{object.link}}"
+			data-title="{{object.title | replace('\n', '<br>') }}"
 			data-description="{{object.description | replace('\n', '<br>') }}" >
 		{%- endfor %}
 		</div>

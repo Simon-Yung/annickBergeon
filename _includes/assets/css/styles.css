@@ -39,8 +39,8 @@ a {
 	font: 300 1rem/1.5 'Montserrat', sans-serif;
 	color: #7073ff;
 }
-h1{/* just for video titles */
-	font: 300 1.25rem/1.25 'Montserrat', sans-serif;
+h1 {/* just for modal titles*/
+	font: 400 1.5rem/1.25 'Montserrat', sans-serif;
 	color: #ffffff;
 	padding-bottom: 0rem;
 	text-align: center;
@@ -248,8 +248,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	cursor: zoom-out;
 }
 .modal_image{
 	flex: 1 1 1;
@@ -262,6 +260,8 @@ body{
 
 	min-width: 0;
 	min-height: 0;
+
+	cursor: zoom-out;
 }
 .modal_sidebar{
 	flex: 20%;
@@ -274,6 +274,7 @@ body{
 
 	position: relative;
 
+	background-color: rgba(0,0,0,0.7);
 }
 /* .control_bar{
 	margin-bottom: 20px;
@@ -296,23 +297,40 @@ body{
 	padding: 5px;
 	text-align: center;
 } */
+#title{
+	margin-top: auto;
+	padding-bottom: 1rem;
+}
+#description{
+	margin-bottom: auto;
+}
 #purchase_link{
+	margin-left: auto;
+	width: 100%;
+	padding: 5px;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-evenly;
 }
+#purchase_link:hover{
+	background-color: rgba(255,255,255,0.2);
+	transition: ease-in-out 0.5s;
+}
 #purchase_link img{
 	height: 20px;
-	padding-right: 10px;
+	padding-left: 1rem;
 }
 #purchase_link p{
-	font: 400 14px/1 'Montserrat', sans-serif;
+	margin-left: auto;
+	
+	font: 400 1rem/1 'Montserrat', sans-serif;
 	color: #eeeeee;
 }
 #purchase_link:hover p{
-	font: 400 14px/1 'Montserrat', sans-serif;
+	font: 400 1rem/1 'Montserrat', sans-serif;
 	text-decoration: underline;
 	color: #eeeeee;
 }
@@ -331,7 +349,7 @@ body{
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
 }
-.button span:hover{
+.button:hover{
 	background-color: rgba(255,255,255,0.2);
 	transition: ease-in-out 0.5s;
 }
@@ -341,7 +359,7 @@ body{
 #pagination{display: none;}
 #close{
 	align-self: flex-end;
-	height: auto;
+	height: 50px;
 }
 
 .spinner{
@@ -617,9 +635,9 @@ padding-bottom: 1.5rem;
 }
 .banner{
 	width:100%; 
-	height: 150px; 
+	height: 250px; 
 	object-fit: cover; 
-	object-position: 50% 20%
+	object-position: 50% 40%
 }
 @media screen and (max-width: 600px) {
 	.banner_container{
