@@ -1,9 +1,10 @@
 ---
 layout: "gallery.njk"
-date: "2020-01-22"
+date: "2020-02-22"
 title: "Serie Noire"
 description: ""
-cover : ""
+cover: ""
+background: "bg.jpg"
 image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
@@ -12,42 +13,39 @@ images_collection:
 #     description: " Use \ for newline "
   - image: 18.jpg
     link:
-    description: "Série noire - Sans nom \n
-    Acrylique, encre, collage, pastel sur toile - 90 x 90 cm \n 
-    - 1800 euros"
+    title: "Série noire - Sans nom "
+    description: "Acrylique, encre, collage, pastel sur toile \n 90 x 90 cm"
   - image: 19.jpg
     link:
-    description: "Série noire - Dominique \n
-    Acrylique, encre, collage, pastel sur contreplaqué - 102 x 102 cm \n
-    - 1800 euros"
+    title: "Série noire - Dominique"
+    description: "Acrylique, encre, collage, pastel sur contreplaqué \n 102 x 102 cm"
   - image: 20.jpg
     link:
-    description: "Série noire - Gisèle \n
-    Acrylique, encre, collage, pastel sur médium - 110 x 80 cm \n
-    - 1800 euros"
+    title: "Série noire - Gisèle"
+    description: "Acrylique, encre, collage, pastel sur médium \n 110 x 80 cm"
   - image: 21.jpg
     link:
-    description: "Série noire - The queen \n
-    Acrylique, encre, collage, pastel sur médium - 110 x 80 cm \n
-    - 1800 euros"
+    title: "Série noire - The queen"
+    description: "Acrylique, encre, collage, pastel sur médium \n 110 x 80 cm"
   - image: 22.jpg
     link:
-    description: "Série noire - Entre chien and queen \n
-    Acrylique, encre, collage, pastel  sur châssis - 130 x 80 cm \n
-    - 2000 euros"
+    title: "Série noire - Entre chien and queen"
+    description: "Acrylique, encre, collage, pastel  sur châssis \n 130 x 80 cm"
 ---
-**UBU ROI**
 
+
+**SÉRIE NOIRE**  
+&nbsp;  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-/
 
-**UBU ROI**
 
+**SÉRIE NOIRE**  
+&nbsp;  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-/
 
-**UBU ROI**
 
+**SÉRIE NOIRE**  
+&nbsp;  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

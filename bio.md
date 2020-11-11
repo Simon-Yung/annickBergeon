@@ -5,11 +5,14 @@ lang: fr
 image: "/includes/assets/images/JCP3.jpg"
 description: "Le trait brut, presque agressif, et passionné de Annick Bergeon exhibe la détermination d'une Artiste au langage épistolaire, éminemment poétique."
 ---
-<div class="banner_container">
-	<img class="banner"  src="{{website.url}}/includes/assets/images/banner.webp" >
-</div>
+<img class="background" src="{{website.url}}/includes/assets/images/bg.jpg">
+<div class="bio_page_main_box">
+	<div class="banner_container">
+		<img class="banner"  src="{{website.url}}/includes/assets/images/bg.jpg" >
+	</div>
 
-<div class="bio_box" style="padding-top:30px">
+<div class="bio_box">
+<div>
 
 Le trait brut, presque agressif, et passionné de Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.  
 
@@ -22,7 +25,11 @@ La résurgence de l'inconscient, l'automatisme dans son expression fondatrice la
 
 Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!
 
-/
+&nbsp;
+
+---------------
+
+&nbsp;
 
 Le trait brut, presque agressif, et passionné de Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.  
 
@@ -36,7 +43,11 @@ La résurgence de l'inconscient, l'automatisme dans son expression fondatrice la
 
 Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!
 
-/
+&nbsp;
+
+---------------
+
+&nbsp;
 
 Le trait brut, presque agressif, et passionné de Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.  
 
@@ -49,4 +60,6 @@ La résurgence de l'inconscient, l'automatisme dans son expression fondatrice la
 
 Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!
 
+</div>
+</div>
 </div>
