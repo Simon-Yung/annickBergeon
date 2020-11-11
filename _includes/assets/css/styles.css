@@ -556,7 +556,7 @@ body{
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
 }
-.text_column p:nth-child(n){
+.intro_box p:nth-child(n){
 	margin: 5px 5px 0 5px;
 	min-width: 300px;
 	flex: 1 1 300px;
