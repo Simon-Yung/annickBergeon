@@ -635,11 +635,14 @@ body{
 .preview{
 	flex: 1 1 auto;
 	/* height: auto; */
-	margin: 05px;
+	margin: 012px;
 	cursor: zoom-in;
 	outline: 0 solid rgba(255, 255, 255, 0.5);
 	transition: 0s;
 	object-fit: cover; 
+}
+.preview{
+	outline: 10px solid rgb(12, 12, 12);
 }
 /* use javascript for thatlast line 
 .preview:last-child{
@@ -651,9 +654,14 @@ body{
 	outline: 5px solid rgba(255,255,255,0.2); */
 	/* animation: zoom ease-out 1s;
 	animation-fill-mode: forwards; */
-	outline: 10px solid rgba(0,0,0,0.0);
-	transition: ease-out 0.5s;
 	/* animation: zoom 0.3s ; */
+
+	
+	/* outline: 10px solid rgba(0,0,0,0.0);
+	transition: ease-out 0.5s; */
+	
+	outline: 10px solid rgb(114, 114, 114);
+	transition: ease-out 0.5s;
 }
 .zoom{
 	animation: zoom 0.3s;
@@ -680,6 +688,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	justify-content: space-evenly;
 }
 .bio_box{
 	margin: 20px;
