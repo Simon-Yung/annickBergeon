@@ -11,8 +11,6 @@ Les photos présentes sur notre site **ne sont pas libres de droit**. Toute copi
 
 Annick Bergeon, SIRET 42443728300049 - TVA intracommunautaire FR39424437283 - 2 rue Chernoviz - 75016 Paris (France).
 
-&nbsp;
-
 ---------------------------------
 
 &nbsp;
@@ -21,8 +19,6 @@ The photos on our site are **not copyright-free**. Any copy and/or use without p
 **COUNTERFEITING IS A CRIME. PLEASE RESPECT MY COPYRIGHTS OR THOSE OF THE PEOPLE WHOSE WORK I FEATURE.**  
 
 Annick Bergeon, SIRET 42443728300049 - TVA intracommunautaire FR39424437283 - 2 rue Chernoviz - 75016 Paris (France).
-
-&nbsp;
 
 -------------------------------
 

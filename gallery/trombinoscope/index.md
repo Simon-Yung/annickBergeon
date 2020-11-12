@@ -21,18 +21,19 @@ images_collection:
     Acrylique, encre, collage, pastel  sur chassis - 100 x 150 cm \n
     - 3000 euros"
 ---
-**UBU ROI**
 
+**SÉRIE NOIRE**  
+&nbsp;  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-/
 
-**UBU ROI**
 
+**SÉRIE NOIRE**  
+&nbsp;  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-/
 
-**UBU ROI**
 
+**SÉRIE NOIRE**  
+&nbsp;  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

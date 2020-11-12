@@ -36,16 +36,22 @@ images_collection:
 
 **SÉRIE NOIRE**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Une véritable galerie de personnages vivants, entiers, différents mais toujours vrais : ils illustrent une folie qui les fait paraître tantôt comiques, tantôt légitimement effrayants.  
+&nbsp;  
+Ils évoluent dans un cadre ou la convention n'est pas loi et ou le conformisme n'a pas sa place.
 
 
 
 **SÉRIE NOIRE**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+A veritable gallery of living characters, whole, different but always true: they illustrate a madness that makes them appear sometimes comical, sometimes legitimately frightening.  
+&nbsp;  
+They evolve in a framework where convention is not the law and where conformism has no place.
 
 
 
 **SÉRIE NOIRE**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Una verdadera galería de personajes vivos, enteros, diferentes pero siempre verdaderos: ilustran una locura que los hace parecer a veces cómicos, a veces legítimamente aterradores.  
+&nbsp;  
+Evolucionan en un marco donde la convención no es la ley y donde el conformismo no tiene cabida.
