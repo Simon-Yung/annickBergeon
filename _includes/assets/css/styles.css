@@ -166,7 +166,7 @@ body{
 	transition: all 0.5s ease-in-out;
 }
 .social_icon:hover img{
-	filter: invert(1.0);
+	filter: brightness(3);
 	transition: all 0.5s ease-in-out;
 }
 .nav_bar{
