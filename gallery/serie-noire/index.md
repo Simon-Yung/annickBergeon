@@ -13,23 +13,23 @@ images_collection:
 #     description: " Use \ for newline "
   - image: 18.jpg
     link:
-    title: "Série noire - Sans nom "
+    title: "Série noire \nSans nom "
     description: "Acrylique, encre, collage, pastel sur toile \n 90 x 90 cm"
   - image: 19.jpg
     link:
-    title: "Série noire - Dominique"
+    title: "Série noire \nDominique"
     description: "Acrylique, encre, collage, pastel sur contreplaqué \n 102 x 102 cm"
   - image: 20.jpg
     link:
-    title: "Série noire - Gisèle"
+    title: "Série noire \nGisèle"
     description: "Acrylique, encre, collage, pastel sur médium \n 110 x 80 cm"
   - image: 21.jpg
     link:
-    title: "Série noire - The queen"
+    title: "Série noire \nThe queen"
     description: "Acrylique, encre, collage, pastel sur médium \n 110 x 80 cm"
   - image: 22.jpg
     link:
-    title: "Série noire - Entre chien and queen"
+    title: "Série noire \nEntre chien and queen"
     description: "Acrylique, encre, collage, pastel  sur châssis \n 130 x 80 cm"
 ---
 
