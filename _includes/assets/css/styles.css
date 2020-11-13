@@ -3,7 +3,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #987E6D;
+  background-color: #393b46;
   display: flex; flex-wrap: nowrap; flex-direction: column; justify-content: center; align-items: center;
 }
 
@@ -75,12 +75,9 @@ body{
 	left: -5%;
 	width: 110%;
 	height: 110%;
-	filter: blur(2px) contrast(75%);
+	filter: blur(5px) contrast(75%);
 	object-fit: cover;
 	background-color: rgba(0,0,0,0);
-}
-.desaturated{
-	filter: blur(2px) contrast(75%) saturate(0);
 }
 @keyframes fadein {
 	0% {opacity: 0;}
@@ -98,7 +95,7 @@ body{
 	min-height: 50px;
 	padding: 15px 20px 0 20px;
 	margin: 0 auto 0 auto;
-	background-color:#372e2a;
+	background-color:#26262d;
 
 	display: flex;
 	flex-direction: column;
@@ -218,7 +215,7 @@ body{
 	border-top: 1px solid #666666;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #372e2a;
+	background-color: #26262d;
 }
 .footer p{
 	font: 300 1.25rem/1.25 'Montserrat', sans-serif;
@@ -302,10 +299,13 @@ body{
 	flex: 1 1 1;
 
 	margin: auto;
-	object-fit: scale-down; /* because of the old  */
+	object-fit: contain; /* because of the old  */
 
-	max-width: 100%;
-	max-height: 100%;
+	width: 85vh;
+	height: 85vh;
+
+	max-width: 100vh;
+	max-height: 100vh;
 
 	min-width: 0;
 	min-height: 0;
@@ -402,15 +402,25 @@ body{
 	background-color: rgba(255,255,255,0.2);
 	transition: ease-in-out 0.5s;
 }
-.button span{
+/* .button span{
 	font: 300 40px/1 'Montserrat', sans-serif;
+} */
+.button img{
+	font: 300 40px/1 'Montserrat', sans-serif;
+	color: #ffffff;
+	height: 50px;
+	width: auto;
+	margin: 5px;
 }
 #pagination{display: none;}
 #close{
 	align-self: flex-end;
 	height: 50px;
+	margin: 10px;
 }
-
+#close img{
+	height: 35px;
+}
 .spinner{
 	z-index: 11;
 	position: fixed;
@@ -560,6 +570,26 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+.return_button_bar{
+	width: 100%;
+	max-width: 1050px;
+	padding: 0px 0px 5px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.return_button{
+	padding: 0px 5px 1px 5px;
+	background-color: rgba(0,0,0,0.50);
+}
+.return{
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+	transition: all 0.5s ease-in-out;
+}
+.return:hover{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+	transition: all 0.5s ease-in-out;
+}
 /* 
 .gallery_intro_box{
 	padding: 60px 30px 60px 30px;
@@ -707,42 +737,64 @@ body{
 	width: 100%;
 	padding: 0 30px 0 30px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 }
-.bio_text{
+.bio_illustration{
+	flex: 0.33 0.33 33% ;
+	margin-right: 20px;
+}
+.bio_content{
+	flex: 0.66 0.66 67%;
+	align-self: stretch;
+
 	max-width: 1050px;
-	padding: 30px 30px 30px 30px;
+	padding: 20px 30px 30px 30px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	background-color: rgba(0,0,0,0.50);
-}/*
-.bio_box div{
-	padding: 60px 30px 60px 30px;
-	background-color: rgba(0,0,0,0.75);
-} */
-.bio_text p {
+}
+.lang_menu{
 	padding-bottom: 1.5rem;
 }
-.banner_container{
-	margin: 20px 10px 20px 20px;
-	min-width: 200px;
-	min-height: 200px;
-	width: 10%;
-	height: 10%;
+.lang_menu span{
+	margin-bottom: 15px;
+	font: 400 1.5rem/1.25 'Montserrat', sans-serif;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+	transition: all 0.2s ease-in-out;
+	margin-right: 1rem;
 }
-.banner{
-	width:100%; 
-	height: 100%; 
-	object-fit: cover; 
-	object-position: 50% 40%
+.lang_menu span:hover{
+	border-bottom: 1px solid rgba(255,255,255,1);
+	transition: all 0.2s ease-in-out;
 }
-@media screen and (max-width: 600px) {
-	.banner_container{
-		padding: 30px 0 0 0;
+.bio_texts{
+	position: relative;
+}
+.bio_texts > div:not(:first-child){
+	/* position: absolute;
+	top: 0;
+	left: 0; 
+	opacity: 0;*/
+}
+.bio_content p {
+	padding-bottom: 1.5rem;
+	transition: all 0.2s ease-in-out;
+}
+/* for the bio text*/
+@keyframes fade {
+	0% {
+		filter: blur(1px) opacity(0.0);
 	}
+	100% {
+		filter: blur(0) opacity(1.0);
+	}
+}
+.fade_in{
+	animation: 0.3s ease-in-out 0s 1 normal forwards running fade ;
 }
 
 /*----------------------videos page----------------------*/

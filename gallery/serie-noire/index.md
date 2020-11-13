@@ -1,20 +1,16 @@
 ---
 layout: "gallery.njk"
-date: "2020-02-22"
+date: "2000-01-20"
 title: "Serie Noire"
 description: ""
 cover: ""
-background: "bg.jpg"
+background_color: "rgba( 0, 0, 0, 0.5)"
 image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
 #     link: https://www.pcagallery.com/example KEEP THE https://
 #     description: " Use \ for newline "
-  - image: 18.jpg
-    link:
-    title: "Sans nom "
-    description: "Acrylique, encre, collage, pastel sur toile \n 90 x 90 cm"
   - image: 19.jpg
     link:
     title: "Dominique"
@@ -31,6 +27,10 @@ images_collection:
     link:
     title: "Entre chien and queen"
     description: "Acrylique, encre, collage, pastel  sur châssis \n 130 x 80 cm"
+  - image: 18.jpg
+    link:
+    title: "Sans nom "
+    description: "Acrylique, encre, collage, pastel sur toile \n 90 x 90 cm"
 ---
 
 

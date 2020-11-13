@@ -6,27 +6,28 @@ image: "/includes/assets/images/JCP3.jpg"
 description: "Le trait brut, presque agressif, et passionné de Annick Bergeon exhibe la détermination d'une Artiste au langage épistolaire, éminemment poétique."
 ---
 <img class="background" src="{{website.url}}/includes/assets/images/bg.jpg">
-<div class="bio_border">
 <div class="separator"></div>
-	<!-- <div class="banner_container">
-		<img class="banner"  src="{{website.url}}/includes/assets/images/bg.jpg" >
-	</div> -->
+<div class="bio_border">
+	<img class="bio_illustration" src="{{website.url}}/includes/assets/images/bg.jpg" >
+	<div class="bio_content">
+		<div class="lang_menu"> <span id="fr">FR</span> <span id="en">EN</span> <span id="es">ES</span> </div>
+		<div class="bio_texts">
+<div id="fr_text">
 
-<div class="bio_text">
+Le trait brut, presque agressif, et passionné d'Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.  
 
-Le trait brut, presque agressif, et passionné de Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.  
-
-Ces portraits impulsifs et tenaces vous apostrophent d'un regard cru et soutenu ; reflétant tel un miroir brisé une émotion à vif, une légère folie d'un univers en décalage.  
+Ces portraits impulsifs et tenaces vous apostrophent d'un regard cru et soutenu; reflétant tel un miroir brisé une émotion à vif, une légère folie d'un univers en décalage.  
 
 Annick Bergeon est sensible au hasard et à la folie, parties essentielles de l'équilibre ordinaire.
 Elle s'exprime et peint sans révérence aucune pour les normes, lois, perception ou acceptation par l’œil extérieur ; elle peint en liberté !  
 La résurgence de l'inconscient, l'automatisme dans son expression fondatrice la plus pure, nés d'une passion spontanée et complètement débridée sont alors retranscrites frénétiquement par d'innombrables voix, sur d'innombrables toiles, papiers et autres supports.  
 
 Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!
+s
 
----------------
+</div>
 
-&nbsp;
+<div id="en_text">
 
 Annick Bergeon's raw, almost aggressive, and passionate stroke hides under an almost childlike appearance the determination of an Artist with an eminently poetic and epistolary language.  
 
@@ -37,10 +38,9 @@ She expresses herself and paints with no reverence for norms, laws, perception o
 The resurgence of the unconscious, automatism in its purest founding expression, born of a spontaneous and completely unbridled passion are then frantically retranscribed by countless voices, on countless canvases, papers and other supports.  
 
 Annick Bergeon is in her creative and wild impetus ; unrestrained !
+</div>
 
----------------
-
-&nbsp;
+<div id="es_text">
 
 La raya cruda, casi agresiva y apasionada de Annick Bergeon esconde bajo una apariencia casi infantil la determinación de un Artista con un lenguaje sumamente poético y epistolar.  
 
@@ -51,8 +51,65 @@ Se expresa y pinta sin reverencia por las normas, leyes, percepción o aceptaci�
 El resurgimiento del inconsciente, el automatismo en su más pura expresión fundadora, nacido de una pasión espontánea y completamente  
 desenfrenada son entonces frenéticamente retranscritos por innumerables voces, en innumerables lienzos, papeles y otros soportes.  
 
-Annick Bergeon está en su ímpetu creativo y salvaje; ¡sin restricciones!
-
+Annick Bergeon está en su ímpetu creativo y salvaje; ¡sin restricciones! 
+</div>
+		</div>
+	</div>
 </div>
 <div class="separator"></div>
-</div>
+
+<script>
+//identifying elements
+const frButton = document.getElementById('fr');
+const enButton = document.getElementById('en');
+const esButton = document.getElementById('es');
+const frText = document.getElementById('fr_text');
+const enText = document.getElementById('en_text');
+const esText = document.getElementById('es_text');
+
+//onload
+window.addEventListener("load", function(){
+	enText.style.display = "none";
+	esText.style.display = "none";
+
+	frText.style.display = "inline";
+	frText.classList.add("fade_in");
+	frText.onanimationend = () => {
+		frText.classList.remove("fade_in");
+	};
+});
+
+frButton.addEventListener("click", function(){
+	enText.style.display = "none";
+	esText.style.display = "none";
+
+	frText.style.display = "inline";
+	frText.classList.add("fade_in");
+
+	frText.onanimationend = () => {
+		frText.classList.remove("fade_in");
+	};
+});
+enButton.addEventListener("click", function(){
+	frText.style.display = "none";
+	esText.style.display = "none";
+
+	enText.style.display = "inline";
+	enText.classList.add("fade_in");
+
+	enText.onanimationend = () => {
+		enText.classList.remove("fade_in");
+	};
+});
+esButton.addEventListener("click", function(){
+	enText.style.display = "none";
+	frText.style.display = "none";
+
+	esText.style.display = "inline";
+	esText.classList.add("fade_in");
+
+	esText.onanimationend = () => {
+		esText.classList.remove("fade_in");
+	};
+});
+</script> 

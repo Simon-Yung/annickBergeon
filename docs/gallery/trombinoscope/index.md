@@ -1,9 +1,10 @@
 ---
 layout: "gallery.njk"
-date: "2020-01-22"
+date: "2000-01-21"
 title: "Trombinoscope"
 description: ""
 cover : ""
+background_color: "rgba(57, 41, 42, 0.5)"
 image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 

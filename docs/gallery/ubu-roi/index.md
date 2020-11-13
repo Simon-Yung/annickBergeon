@@ -1,9 +1,10 @@
 ---
 layout: "gallery.njk"
-date: "2020-01-22"
+date: "2000-01-22"
 title: "UBU ROI"
 description: ""
 cover : ""
+background_color: "rgba(16, 25, 51, 0.5)"
 image_scaling: "300" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 

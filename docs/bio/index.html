@@ -56,28 +56,30 @@
 </div>
 
 		<img class="background" src="https://simon-yung.github.io/annickBergeon/includes/assets/images/bg.jpg">
-<div class="bio_border">
 <div class="separator"></div>
-	<!-- <div class="banner_container">
-		<img class="banner"  src="https://simon-yung.github.io/annickBergeon/includes/assets/images/bg.jpg" >
-	</div> -->
-<div class="bio_text">
-<p>Le trait brut, presque agressif, et passionné de Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.</p>
-<p>Ces portraits impulsifs et tenaces vous apostrophent d'un regard cru et soutenu ; reflétant tel un miroir brisé une émotion à vif, une légère folie d'un univers en décalage.</p>
+<div class="bio_border">
+	<img class="bio_illustration" src="https://simon-yung.github.io/annickBergeon/includes/assets/images/bg.jpg" >
+	<div class="bio_content">
+		<div class="lang_menu"> <span id="fr">FR</span> <span id="en">EN</span> <span id="es">ES</span> </div>
+		<div class="bio_texts">
+<div id="fr_text">
+<p>Le trait brut, presque agressif, et passionné d'Annick Bergeon cache sous une apparence presque enfantine la détermination d'une Artiste au langage épistolaire, éminemment poétique.</p>
+<p>Ces portraits impulsifs et tenaces vous apostrophent d'un regard cru et soutenu; reflétant tel un miroir brisé une émotion à vif, une légère folie d'un univers en décalage.</p>
 <p>Annick Bergeon est sensible au hasard et à la folie, parties essentielles de l'équilibre ordinaire.
 Elle s'exprime et peint sans révérence aucune pour les normes, lois, perception ou acceptation par l’œil extérieur ; elle peint en liberté !<br>
 La résurgence de l'inconscient, l'automatisme dans son expression fondatrice la plus pure, nés d'une passion spontanée et complètement débridée sont alors retranscrites frénétiquement par d'innombrables voix, sur d'innombrables toiles, papiers et autres supports.</p>
-<p>Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!</p>
-<hr>
-<p> </p>
+<p>Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!
+s</p>
+</div>
+<div id="en_text">
 <p>Annick Bergeon's raw, almost aggressive, and passionate stroke hides under an almost childlike appearance the determination of an Artist with an eminently poetic and epistolary language.</p>
 <p>These impulsive and tenacious portraits call out to you with a crude and sustained gaze; reflecting, like a broken mirror, a raw emotion, a slight madness of a off-beat universe.</p>
 <p>Annick Bergeon is sensitive to random fate and madness, essential parts of the everyday equilibrium.
 She expresses herself and paints with no reverence for norms, laws, perception or acceptance by the outside eye; she paints freely!<br>
 The resurgence of the unconscious, automatism in its purest founding expression, born of a spontaneous and completely unbridled passion are then frantically retranscribed by countless voices, on countless canvases, papers and other supports.</p>
 <p>Annick Bergeon is in her creative and wild impetus ; unrestrained !</p>
-<hr>
-<p> </p>
+</div>
+<div id="es_text">
 <p>La raya cruda, casi agresiva y apasionada de Annick Bergeon esconde bajo una apariencia casi infantil la determinación de un Artista con un lenguaje sumamente poético y epistolar.</p>
 <p>Estos retratos impulsivos y tenaces te apostrofan con una mirada bruta y sostenida; reflejando, como un espejo roto, una emoción cruda, una ligera locura de un universo desfasado.</p>
 <p>Annick Bergeon es sensible al azar y a la locura, partes esenciales del equilibrio ordinario.
@@ -86,8 +88,65 @@ El resurgimiento del inconsciente, el automatismo en su más pura expresión fun
 desenfrenada son entonces frenéticamente retranscritos por innumerables voces, en innumerables lienzos, papeles y otros soportes.</p>
 <p>Annick Bergeon está en su ímpetu creativo y salvaje; ¡sin restricciones!</p>
 </div>
-<div class="separator"></div>
+		</div>
+	</div>
 </div>
+<div class="separator"></div>
+<script>
+//identifying elements
+const frButton = document.getElementById('fr');
+const enButton = document.getElementById('en');
+const esButton = document.getElementById('es');
+const frText = document.getElementById('fr_text');
+const enText = document.getElementById('en_text');
+const esText = document.getElementById('es_text');
+
+//onload
+window.addEventListener("load", function(){
+	enText.style.display = "none";
+	esText.style.display = "none";
+
+	frText.style.display = "inline";
+	frText.classList.add("fade_in");
+	frText.onanimationend = () => {
+		frText.classList.remove("fade_in");
+	};
+});
+
+frButton.addEventListener("click", function(){
+	enText.style.display = "none";
+	esText.style.display = "none";
+
+	frText.style.display = "inline";
+	frText.classList.add("fade_in");
+
+	frText.onanimationend = () => {
+		frText.classList.remove("fade_in");
+	};
+});
+enButton.addEventListener("click", function(){
+	frText.style.display = "none";
+	esText.style.display = "none";
+
+	enText.style.display = "inline";
+	enText.classList.add("fade_in");
+
+	enText.onanimationend = () => {
+		enText.classList.remove("fade_in");
+	};
+});
+esButton.addEventListener("click", function(){
+	enText.style.display = "none";
+	frText.style.display = "none";
+
+	esText.style.display = "inline";
+	esText.classList.add("fade_in");
+
+	esText.onanimationend = () => {
+		esText.classList.remove("fade_in");
+	};
+});
+</script> 
 
 		<footer class="footer">
 	<p><a href="mailto:contact@abergeon.com" style="color:white">contact@abergeon.com</a></p>
