@@ -8,7 +8,7 @@ var modalIsOpen = false;
 //this is the modal window
 const modal = document.getElementById('modal_window');
 //those are the modal image elements
-const imageContainer = document.getElementById('modal_image_container');
+//const imageContainer = document.getElementById('modal_image_container');
 const image = document.getElementById('modal_image');
 
 //those are the control bar elements
