@@ -749,14 +749,14 @@ body{
 .bio_illustration{
 	flex: 0.25 0.25 25% ;
 	margin: 0 20px 20px 0;
-	min-width: 230px;
+	/* min-width: 230px; */
 }
 .bio_content{
 	flex: 0.75 0.75 75%;
 	align-self: stretch;
 
 	max-width: 1050px;
-	min-width: 430px;
+	/* min-width: 430px; */
 	padding: 20px 30px 30px 30px;
 	display: flex;
 	flex-direction: column;
@@ -804,7 +804,7 @@ body{
 	animation: 0.3s ease-in-out 0s 1 normal forwards running fade ;
 }
 
-@media screen and (max-width: 710px) {
+/* @media screen and (max-width: 710px) {
 	.bio_border{
 		flex-wrap: wrap;
 	}
@@ -818,7 +818,7 @@ body{
 		width: 100%;
 		padding: 0 10px 0 10px;
 	}
-}
+} */
 
 /*----------------------videos page----------------------*/
 /* .video_box{
