@@ -6,9 +6,10 @@ image: "/includes/assets/images/JCP3.jpg"
 description: "Le trait brut, presque agressif, et passionné de Annick Bergeon exhibe la détermination d'une Artiste au langage épistolaire, éminemment poétique."
 ---
 <img class="background" src="{{website.url}}/includes/assets/images/bg.jpg">
-<div class="separator"></div>
 <div class="bio_border">
-	<img class="bio_illustration" src="{{website.url}}/includes/assets/images/bg.jpg" >
+	<div class="bio_illustration">
+		<img src="{{website.url}}/includes/assets/images/bg.jpg" >
+	</div>
 	<div class="bio_content">
 		<div class="lang_menu"> <span id="fr">FR</span> <span id="en">EN</span> <span id="es">ES</span> </div>
 		<div class="bio_texts">
@@ -71,45 +72,58 @@ const esText = document.getElementById('es_text');
 window.addEventListener("load", function(){
 	enText.style.display = "none";
 	esText.style.display = "none";
-
 	frText.style.display = "inline";
+
 	frText.classList.add("fade_in");
 	frText.onanimationend = () => {
 		frText.classList.remove("fade_in");
 	};
+
+	frButton.classList.add("highlight");
+	enButton.classList.remove("highlight");
+	esButton.classList.remove("highlight");
 });
 
 frButton.addEventListener("click", function(){
 	enText.style.display = "none";
 	esText.style.display = "none";
-
 	frText.style.display = "inline";
-	frText.classList.add("fade_in");
 
+	frText.classList.add("fade_in");
 	frText.onanimationend = () => {
 		frText.classList.remove("fade_in");
 	};
+
+	frButton.classList.add("highlight");
+	enButton.classList.remove("highlight");
+	esButton.classList.remove("highlight");
 });
 enButton.addEventListener("click", function(){
 	frText.style.display = "none";
 	esText.style.display = "none";
-
 	enText.style.display = "inline";
-	enText.classList.add("fade_in");
 
+	enText.classList.add("fade_in");
 	enText.onanimationend = () => {
 		enText.classList.remove("fade_in");
 	};
+
+	frButton.classList.remove("highlight");
+	enButton.classList.add("highlight");
+	esButton.classList.remove("highlight");
 });
 esButton.addEventListener("click", function(){
 	enText.style.display = "none";
 	frText.style.display = "none";
-
 	esText.style.display = "inline";
-	esText.classList.add("fade_in");
 
+	esText.classList.add("fade_in");
 	esText.onanimationend = () => {
 		esText.classList.remove("fade_in");
 	};
+
+	frButton.classList.remove("highlight");
+	enButton.classList.remove("highlight");
+	esButton.classList.add("highlight");
 });
 </script> 
