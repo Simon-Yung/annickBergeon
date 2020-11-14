@@ -111,7 +111,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	z-index: 2;
 }
 .header_sub_bar {
@@ -486,6 +486,7 @@ body{
 }
 .landing_title{
 	font: 300 4rem/1.25 'Montserrat', sans-serif;
+	text-align: center;
 	color: #eeeeee;
 	padding-bottom: 0;
 	border-bottom: 3px solid rgba(255, 255, 255, 0);
@@ -494,6 +495,7 @@ body{
 }
 .landing_sub_title{
 	font: 300 2rem/1.25 'Montserrat', sans-serif;
+	text-align: center;
 	color: #eeeeee;
 	padding-bottom: 0;
 	border-bottom: 3px solid rgba(255, 255, 255, 0);
@@ -573,6 +575,7 @@ body{
 .return_button_bar{
 	width: 100%;
 	max-width: 1050px;
+	min-width: 370px; /*300(min width ->text + text margin + intro_box padding)*/
 	padding: 0px 0px 5px 0px;
 	display: flex;
 	flex-direction: row;
@@ -677,6 +680,7 @@ body{
 	max-width: 1050px;
 	margin: 0;
 	padding: 30px 5px 30px 5px;
+	min-width: 370px; /*300(min width ->text + text margin + intro_box padding)*/
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -740,16 +744,24 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+@media screen and (max-width: 710px) {
+	.bio_border{
+		flex-wrap: wrap;
+	}
 }
 .bio_illustration{
-	flex: 0.33 0.33 33% ;
-	margin-right: 20px;
+	flex: 0.25 0.25 25% ;
+	margin: 0 20px 20px 0;
+	min-width: 230px;
 }
 .bio_content{
-	flex: 0.66 0.66 67%;
+	flex: 0.75 0.75 75%;
 	align-self: stretch;
 
 	max-width: 1050px;
+	min-width: 430px;
 	padding: 20px 30px 30px 30px;
 	display: flex;
 	flex-direction: column;
