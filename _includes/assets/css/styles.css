@@ -700,7 +700,23 @@ body{
 	50% {scale: 0.9;}
 	100% {scale: 1.0;}
 }
-
+@media screen and (max-width: 370px) {
+	.gallery_border{
+		padding: 00px 00px 00px 00px;
+	}
+	.return_button_bar{
+		min-width: 0; 
+	}
+	.intro_box{
+		padding: 30px 10px 30px 10px;
+	}
+	.intro_box p:nth-child(n){
+		min-width: 0;
+	}
+	.gallery{
+		min-width: 00px;
+	}
+}
 /*----------------------page with text----------------------*/
 .text_box{
 	margin: 60px 30px 60px 30px;

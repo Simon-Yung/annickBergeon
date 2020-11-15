@@ -5,7 +5,7 @@ title: "Serie Noire"
 description: ""
 cover: ""
 background_color: "rgba( 0, 0, 0, 0.5)"
-image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "200" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
@@ -39,6 +39,7 @@ images_collection:
 Une véritable galerie de personnages vivants, entiers, différents mais toujours vrais : ils illustrent une folie qui les fait paraître tantôt comiques, tantôt légitimement effrayants.  
 &nbsp;  
 Ils évoluent dans un cadre ou la convention n'est pas loi et ou le conformisme n'a pas sa place.
+&nbsp;  
 
 
 
@@ -47,6 +48,7 @@ Ils évoluent dans un cadre ou la convention n'est pas loi et ou le conformisme 
 A veritable gallery of living characters, whole, different but always true: they illustrate a madness that makes them appear sometimes comical, sometimes legitimately frightening.  
 &nbsp;  
 They evolve in a framework where convention is not the law and where conformism has no place.
+&nbsp;  
 
 
 
