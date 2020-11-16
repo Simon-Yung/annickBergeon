@@ -14,14 +14,12 @@ images_collection:
 #     description: " Use \ for newline "
   - image: 26.jpg
     link:
-    description: "Série trombinoscope \n
-    9 portraits au crayon - Acrylique, encre, collage, pastel sur châssis - 150 x 110 cm \n
-    - 2400 euros.jpg"
+    title: "Série trombinoscope"
+    description: "9 portraits au crayon - Acrylique, encre, collage, pastel sur châssis\n150 x 110 cm"
   - image: 28.jpg
     link:
-    description: "Triptyque - Le chien peut-être andalou, passe \n
-    Acrylique, encre, collage, pastel  sur chassis - 100 x 150 cm \n
-    - 3000 euros"
+    title: "Triptyque - Le chien peut-être andalou passé"
+    description: "Acrylique, encre, collage, pastel  sur chassis\n100 x 150 cm"
 ---
 **# TROMBINOSCOPE**  
 &nbsp;  

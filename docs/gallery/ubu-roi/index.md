@@ -15,38 +15,31 @@ images_collection:
   - image: 1.jpg
     link:
     title: "Ubu et son épouse, les pieds dans l'eau"
-    description: "Acrylique, encre, collage, pastel sur papier - 200 x 152 cm \n
-    - 4000 euros"
+    description: "Acrylique, encre, collage, pastel sur papier \n200 x 152 cm"
   - image: 2.jpg
     link:
     title: "Ubu, Mère et Venceslas"
-    description: "Acrylique, encre, collage, pastel sur papier - 200 x 152 cm \n
-    - 4000 euros"
+    description: "Acrylique, encre, collage, pastel sur papier\n200 x 152 cm"
   - image: 8.jpg
     link:
     title: "Mère Ubu et Venceslas"
-    description: "Acrylique, encre, collage, pastel sur papier Indien - 135 x 95 cm \n
-    - 3000 euros"
+    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
   - image: 9.jpg
     link:
     title: "Ubu épris de sa reine"
-    description: "Acrylique, encre, collage, pastel sur papier Indien - 135 x 95 cm \n
-    - 3000 euros"
+    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
   - image: 11.jpg
     link:
     title: "Ubu à l'état brut"
-    description: "Acrylique, encre, collage, pastel sur papier Indien - 135 x 95 cm \n
-    - 3000 euros.JPG"
+    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
   - image: 16.jpg
     link:
     title: "Mère Ubu"
-    description: "Acrylique, encre, collage, pastel sur papier - 60 x 40 cm \n
-    - 900 euros"
+    description: "Acrylique, encre, collage, pastel sur papier\n60 x 40 cm"
   - image: 3.jpg
     link:
     title: "Ubu, son portrait"
-    description: "Acrylique, encre, collage, pastel sur papier - 150 x 130 cm \n
-    - 3600 euros"
+    description: "Acrylique, encre, collage, pastel sur papier\n150 x 130 cm"
 ---
 **# UBU**  
 &nbsp;  
