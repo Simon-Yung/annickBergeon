@@ -17,13 +17,7 @@ background_color: "rgba(0,0,0,0.5)"
 		<script src="{{website.url}}/includes/assets/js/masonry_resize.js" defer> </script>
 		
 		<!--overides-->
-		{%- if cover %}
-		<meta property="og:image" content="{{website.completeUrl}}/gallery/{{page.fileSlug}}/larges/{{ cover }}">
-		{%- elif products[0] %}
-		<meta property="og:image" content="{{website.completeUrl}}/gallery/{{page.fileSlug}}/larges/{{product[0]}}">
-		{%- else %}
-		<meta property="og:image" content="{{website.completeUrl}}/{{ collections[page.fileSlug][0] | replace('/thumbnails','/larges') }}">
-		{%- endif %}
+		<meta property="og:image" content="{{website.completeUrl}}/gallery/{{page.fileSlug}}/larges/{{ images_collection[1].image }}">
 		
 		{% include "components/metadata.njk" %}
 	</head>

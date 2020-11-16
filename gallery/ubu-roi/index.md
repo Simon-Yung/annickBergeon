@@ -2,7 +2,8 @@
 layout: "gallery.njk"
 date: "2000-01-22"
 title: "UBU ROI"
-description: ""
+description: "Et que voici une écriture si ironique, si forte de couleurs; donc, si subtile et intelligente.  
+Et là nous pouvons par ces travaux étonnants contempler nos bêtises,"
 cover : ""
 background_color: "rgba(16, 25, 51, 0.5)"
 image_scaling: "300" #en pixel, la taille verticale minimum des images presentes dans la gallery
@@ -47,19 +48,25 @@ images_collection:
     description: "Acrylique, encre, collage, pastel sur papier - 150 x 130 cm \n
     - 3600 euros"
 ---
-
-**SÉRIE NOIRE**  
+**# UBU**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-
-
-**SÉRIE NOIRE**  
+Et que voici une écriture si ironique, si forte de couleurs; donc, si subtile et intelligente.  
+Et là nous pouvons par ces travaux étonnants contempler nos bêtises, nos attitudes si peu équivoques, car souvent terriblement ridicules, ostentatoires et bêtement arrogantes&nbsp;!!  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Merdre
 
 
-
-**SÉRIE NOIRE**  
+**# UBU**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+And that here is such ironic an writing, so strong in colour; so subtle and intelligent.  
+And through these astonishing works we are able to contemplate our stupidities, our so unequivocal attitudes, often terribly ridiculous, ostentatious and foolishly arrogant&nbsp;!!  
+&nbsp;  
+Merdre
+
+
+**# UBU**  
+&nbsp;  
+Y que aquí hay una escritura tan irónica, tan fuerte de colores; por lo tanto, tan sutil e inteligente.  
+Y allí podemos, por estas obras asombrosas, contemplar nuestra tontería, nuestras actitudes tan inequívocas, a menudo terriblemente ridículas&nbsp;!!  
+&nbsp;  
+Merdre

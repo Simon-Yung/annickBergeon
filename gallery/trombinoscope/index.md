@@ -2,7 +2,8 @@
 layout: "gallery.njk"
 date: "2000-01-21"
 title: "Trombinoscope"
-description: ""
+description: "Et là nous pouvons nous contempler tels que nous sommes, avons été ou serons...
+Tricher est impossible; les couleurs, les mouvements imprimés par l'artiste sont vifs"
 cover : ""
 background_color: "rgba(57, 41, 42, 0.5)"
 image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
@@ -22,19 +23,25 @@ images_collection:
     Acrylique, encre, collage, pastel  sur chassis - 100 x 150 cm \n
     - 3000 euros"
 ---
-
-**SÉRIE NOIRE**  
+**# TROMBINOSCOPE**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-
-
-**SÉRIE NOIRE**  
+Et là nous pouvons nous contempler tels que nous sommes, avons été ou serons...  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Tricher est impossible; les couleurs, les mouvements imprimés par l'artiste sont vifs, amples et décisifs.  
+Il devient important d'annexer le temps et de regarder ces œuvres avec enthousiasme et plaisir...  
 
 
-
-**SÉRIE NOIRE**  
+**# TROMBINOSCOPE**  
 &nbsp;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+And there we can contemplate ourselves just as we are, have been or will be...  
+&nbsp;  
+Cheating is impossible; the colours, the movements imprinted by the artist are vivid, ample and decisive.  
+It becomes important to annex time and to look at these works with enthusiasm and pleasure...  
+
+
+**# TROMBINOSCOPE**  
+&nbsp;  
+Y allí podemos contemplarnos como estamos, estuvimos o estaremos...  
+&nbsp;  
+Las trampas son imposible; los colores, los movimientos imprimidos por el artista son potentes, amplios y decisivos.  
+Se hace importante anexar el tiempo y mirar estas obras con entusiasmo y placer...  
