@@ -20,11 +20,10 @@ Le trait brut, presque agressif, et passionné d'Annick Bergeon cache sous une a
 Ces portraits impulsifs et tenaces vous apostrophent d'un regard cru et soutenu; reflétant tel un miroir brisé une émotion à vif, une légère folie d'un univers en décalage.  
 
 Annick Bergeon est sensible au hasard et à la folie, parties essentielles de l'équilibre ordinaire.
-Elle s'exprime et peint sans révérence aucune pour les normes, lois, perception ou acceptation par l’œil extérieur ; elle peint en liberté !  
+Elle s'exprime et peint sans révérence aucune pour les normes, lois, perception ou acceptation par l’œil extérieur; elle peint en liberté&nbsp;!  
 La résurgence de l'inconscient, l'automatisme dans son expression fondatrice la plus pure, nés d'une passion spontanée et complètement débridée sont alors retranscrites frénétiquement par d'innombrables voix, sur d'innombrables toiles, papiers et autres supports.  
 
-Annick Bergeon est dans son élan créatif et sauvage ; elle est sans retenue !!
-s
+Annick Bergeon est dans son élan créatif et sauvage; elle est sans retenue&nbsp;!!
 
 </div>
 
@@ -38,7 +37,7 @@ Annick Bergeon is sensitive to random fate and madness, essential parts of the e
 She expresses herself and paints with no reverence for norms, laws, perception or acceptance by the outside eye; she paints freely!  
 The resurgence of the unconscious, automatism in its purest founding expression, born of a spontaneous and completely unbridled passion are then frantically retranscribed by countless voices, on countless canvases, papers and other supports.  
 
-Annick Bergeon is in her creative and wild impetus ; unrestrained !
+Annick Bergeon is in her creative and wild impetus; unrestrained&nbsp;!
 </div>
 
 <div id="es_text">
@@ -52,7 +51,7 @@ Se expresa y pinta sin reverencia por las normas, leyes, percepción o aceptaci�
 El resurgimiento del inconsciente, el automatismo en su más pura expresión fundadora, nacido de una pasión espontánea y completamente  
 desenfrenada son entonces frenéticamente retranscritos por innumerables voces, en innumerables lienzos, papeles y otros soportes.  
 
-Annick Bergeon está en su ímpetu creativo y salvaje; ¡sin restricciones! 
+Annick Bergeon está en su ímpetu creativo y salvaje; ¡&nbsp;sin restricciones&nbsp;! 
 </div>
 		</div>
 	</div>
