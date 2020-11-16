@@ -2,10 +2,10 @@
 layout: "gallery.njk"
 date: "2000-01-20"
 title: "Serie Noire"
-description: ""
+description: "Énonciation pariétale, parfois ; Art Brut, pourquoi pas, figuration contemporaine, définitivementm !! "
 cover: ""
 background_color: "rgba( 0, 0, 0, 0.5)"
-image_scaling: "200" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
@@ -34,26 +34,27 @@ images_collection:
 ---
 
 
-**SÉRIE NOIRE**  
+**# SÉRIE NOIRE**  
 &nbsp;  
-Une véritable galerie de personnages vivants, entiers, différents mais toujours vrais : ils illustrent une folie qui les fait paraître tantôt comiques, tantôt légitimement effrayants.  
+Énonciation pariétale, parfois ; Art Brut, pourquoi pas, figuration contemporaine, définitivement&nbsp;!!  
 &nbsp;  
-Ils évoluent dans un cadre ou la convention n'est pas loi et ou le conformisme n'a pas sa place.
-&nbsp;  
+SÉRIE NOIRE s'impose à nous en suggérant par l'épaisseur, la superposition de mouvements et d’expressions quelques perspectives éprises de liberté,  
+SÉRIE NOIRE regarde la vie&nbsp;!  
 
 
 
-**SÉRIE NOIRE**  
+**# SÉRIE NOIRE**  
 &nbsp;  
-A veritable gallery of living characters, whole, different but always true: they illustrate a madness that makes them appear sometimes comical, sometimes legitimately frightening.  
+Parietal statement, sometimes; Outsider art, why not, contemporary portrayal, definitely&nbsp;!!  
 &nbsp;  
-They evolve in a framework where convention is not the law and where conformism has no place.
-&nbsp;  
+BLACK SERIES imposes itself on us, suggesting in profundity, the superimposition of movements and expressions some perspectives  besotted by freedom,  
+BLACK SERIES regards life&nbsp;!  
 
 
 
-**SÉRIE NOIRE**  
+**# SÉRIE NOIRE**  
 &nbsp;  
-Una verdadera galería de personajes vivos, enteros, diferentes pero siempre verdaderos: ilustran una locura que los hace parecer a veces cómicos, a veces legítimamente aterradores.  
+Enunciación parietal, a veces; Arte marginal, por qué no, figuración contemporánea, definitivamente&nbsp;!!  
 &nbsp;  
-Evolucionan en un marco donde la convención no es la ley y donde el conformismo no tiene cabida.
+SERIA NEGRA se nos impone sugiriendo por el fondo, la superposición de movimientos y expresiones algunas perspectivas prendado de la libertad,  
+SERIA NEGRA observa la vida&nbsp;!  

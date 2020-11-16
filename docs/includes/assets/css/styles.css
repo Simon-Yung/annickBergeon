@@ -271,11 +271,10 @@ body{
 	top: 0;
 	left: 0;
 
+	display: grid;
 	display: none;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	align-items: center;
-	justify-content: center;
+	grid-template-columns: auto 300px;
+	grid-template-rows: 100%;
 
 	z-index: 10;
 	width: 100%;
@@ -285,7 +284,10 @@ body{
 	background-color: rgba(0,0,0,0.75);
 }
 .modal_main_box{
-	flex: 100%;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
 
 	display: flex;
 	flex-direction: row;
@@ -355,9 +357,11 @@ body{
 	cursor: zoom-out;
 }
 .modal_side_box{
-	flex: 0 0 300px;
-	width: 300px;
-	height: 100%;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
 	padding: 10px;
 
 	display: flex;
@@ -450,31 +454,38 @@ body{
 	100% {opacity: 0;}
 }
 @media screen and (orientation: portrait) {
-	.modal_window{
-		flex-direction: column-reverse;
-		flex-wrap: nowrap;
-	}
-	.modal_side_box{
-		height: auto;
-		width: 100%;
-		flex: 0 1 auto;
-	}
-	.modal_main_box{
-		height: auto;
-		width: 100%;
-		flex: 1 1 auto;
-	}
-	.modal_image_container{
-		height: 80%;
-		width: auto;
-	}
-	.modal_image{
-		width: auto;
-	}
 	#close{
 		top: 0px;
 		right: 0px;
 		margin: 0;
+	}
+	.modal_window{
+		grid-template-columns: 100%;
+		grid-template-rows: 20vh 80vh;
+	}
+	.modal_image_container{
+
+		height: 90%;
+
+		max-height: 100%;
+		min-height: 0;
+		max-width: 100%;
+		min-width: 0;
+	}
+	.modal_main_box{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+
+		height: auto;
+	}
+	.modal_side_box{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		overflow: auto;
 	}
 }
 /*menu thingy*/
@@ -642,18 +653,17 @@ body{
 
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap-reverse;
+	flex-wrap: nowrap;
 
 	background-color: rgba(0,0,0,0.50);
 }
 .intro_box p:nth-child(n){
 	margin: 5px 5px 0 5px;
-	min-width: 300px;
+	min-width: 200px;
 
-	flex: 1 1 300px;
-}
-.gallery_intro_box p {
-	margin-bottom: 1.25rem;
+	text-align: left;
+
+	flex: 1;
 }
 .separator{
 	height: 60px;
@@ -699,6 +709,18 @@ body{
 	0% {scale: 1.0;}
 	50% {scale: 0.9;}
 	100% {scale: 1.0;}
+}
+@media screen and (max-width: 900px) {
+	.intro_box{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.intro_box p:nth-child(n){
+		margin-bottom: 2rem;
+	
+		/* flex: 1 1 40%; */
+		flex: 1 1 100%;
+	}
 }
 @media screen and (max-width: 370px) {
 	.gallery_border{

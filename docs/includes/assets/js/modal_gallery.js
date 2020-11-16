@@ -64,7 +64,7 @@ function openModalGallery(imageIDNumber) {
 		img.classList.remove("zoom");
 	};
 	//change image, open the modal
-	modal.style.display = "flex";
+	modal.style.display = "grid";
 	pagination.innerHTML = img.dataset.pagination;
 	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
 	currentImage = imageIDNumber;
