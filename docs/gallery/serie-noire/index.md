@@ -11,26 +11,54 @@ images_collection:
 #   - image: nom_de_l_image.jpg
 #     link: https://www.pcagallery.com/example KEEP THE https://
 #     description: " Use \ for newline "
-  - image: 19.jpg
+  - image: 1.jpg
     link:
     title: "Dominique"
-    description: "Acrylique, encre, collage, pastel sur contreplaqué \n 102 x 102 cm"
-  - image: 20.jpg
+    description: "Sur contreplaqué \n102 x 102 cm"
+  - image: 2.jpg
     link:
-    title: "Gisèle"
-    description: "Acrylique, encre, collage, pastel sur médium \n 110 x 80 cm"
-  - image: 21.jpg
-    link:
-    title: "The queen"
-    description: "Acrylique, encre, collage, pastel sur médium \n 110 x 80 cm"
-  - image: 22.jpg
+    title: "Le chien peut-être andalou"
+    description: "Passe - sur châssis \n100 x 150 cm "
+  - image: 3.jpg
     link:
     title: "Entre chien and queen"
-    description: "Acrylique, encre, collage, pastel  sur châssis \n 130 x 80 cm"
-  - image: 18.jpg
+    description: "Sur châssis \n130 x 80 cm"
+  - image: 4.jpg
     link:
-    title: "Sans nom "
-    description: "Acrylique, encre, collage, pastel sur toile \n 90 x 90 cm"
+    title: "Gisèle"
+    description: "Sur médium\n 110 x 80 cm"
+  - image: 5.jpg
+    link:
+    title: "Georges"
+    description: "Sur châssis\n40 x 40 cm"
+  - image: 6.jpg
+    link:
+    title: "La MTP"
+    description: "Sur contreplaqué \n130 x 80 cm"
+  - image: 7.jpg
+    link:
+    title: "Lucien"
+    description: "Sur châssis \n60 x 60 cm"
+  - image: 8.jpg
+    link:
+    title: "Quand the queen rit jaune"
+    description: "Sur carton \n125 x 61 cm"
+  - image: 9.jpg
+    link:
+    title: "The queen à l'envers ou reine de Pologne"
+    description: "Sur médium\n 110 x 80 cm"
+  - image: 10.jpg
+    link:
+    title: "Sans nom"
+    description: "sur papier\n42 x 60 cm"
+  - image: 11.jpg
+    link:
+    title: "Sans nom"
+    description: "Sur toile\n90 x 90 cm"
+  - image: Serienoire .jpg
+    link:
+    title: "Série Noire"
+    description: ""
 ---
 
 

@@ -14,32 +14,44 @@ images_collection:
 #     description: " Use \ for newline "
   - image: 1.jpg
     link:
-    title: "Ubu et son épouse, les pieds dans l'eau"
-    description: "Acrylique, encre, collage, pastel sur papier \n200 x 152 cm"
+    title: "Ne baisons pas les bras"
+    description: "Acrylique, encre, collage, pastel sur papier \n40  x 60 cm"
   - image: 2.jpg
     link:
-    title: "Ubu, Mère et Venceslas"
-    description: "Acrylique, encre, collage, pastel sur papier\n200 x 152 cm"
-  - image: 8.jpg
-    link:
-    title: "Mère Ubu et Venceslas"
-    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
-  - image: 9.jpg
-    link:
-    title: "Ubu épris de sa reine"
-    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
-  - image: 11.jpg
-    link:
-    title: "Ubu à l'état brut"
-    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
-  - image: 16.jpg
-    link:
-    title: "Mère Ubu"
-    description: "Acrylique, encre, collage, pastel sur papier\n60 x 40 cm"
+    title: "Famille royale"
+    description: "Acrylique, encre, collage, pastel sur papier\n80 x 60 cm"
   - image: 3.jpg
     link:
-    title: "Ubu, son portrait"
-    description: "Acrylique, encre, collage, pastel sur papier\n150 x 130 cm"
+    title: "Mère Ubu dessin"
+    description: "Dessin\n20 x 30 cm"
+  - image: 4.jpg
+    link:
+    title: "Famille royale"
+    description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
+  - image: 5.jpg
+    link:
+    title: "L'entourage d'Ubu"
+    description: "Acrylique, encre, collage, pastel sur toile\n130 x 110 cm"
+  - image: 6.jpg
+    link:
+    title: "Ubu Roi _1"
+    description: "Acrylique, encre, collage, pastel sur papier\n140 x 100 cm"
+  - image: 7.jpg
+    link:
+    title: "The queen"
+    description: "Acrylique, encre, collage, pastel sur toile\n 106 x 66 cm"
+  - image: 8.jpg
+    link:
+    title: "The queen sur médium"
+    description: "Acrylique, encre, collage, pastel sur medium\n110 x 80 cm"
+  - image: 9.jpg
+    link:
+    title: "Venceslas et une autre queen"
+    description: "Acrylique, encre, collage, pastel sur papier indien\n135 x 95 cm"
+  - image: 10.jpg
+    link:
+    title: "Boleslas de Pologne"
+    description: "Acrylique, encre, collage, pastel sur papier\n 150 x 130 cm"
 ---
 **# UBU**  
 &nbsp;  

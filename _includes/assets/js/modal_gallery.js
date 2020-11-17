@@ -1,9 +1,12 @@
 
 // Get the gallery by id
 const gallery = document.getElementById('gallery');
-const numberOfImage = document.getElementsByClassName('preview').length;
+//const numberOfImage = document.getElementsByClassName('preview').length;
+var numberOfImage = 1;
 var currentImage;
 var modalIsOpen = false;
+//DODGY HACK FOR MULTIPLE GALLERIES CHECK THIS AGAIN LATER:
+var galleryName = "";
 
 //this is the modal window
 const modal = document.getElementById('modal_window');
@@ -31,7 +34,6 @@ const menu_close = document.getElementById('menu_close');
 var menuIsVisible = false;
 
 // loader spinner
-
 const loader = document.getElementById('spinner');
 
 function spinIt() {
@@ -46,51 +48,52 @@ image.onload = function() {
 
 // Modal
 
-function openModalGallery(imageIDNumber) {
-	//looking back , i could have just used an array instead of this id system, oh well...
-	modalIsOpen = true;
-	//check if image id is within bound, wrap around if not
-	imageIDNumber = parseInt(imageIDNumber);
-	if ( imageIDNumber == 0 ) { imageIDNumber = numberOfImage; }
-	if ( imageIDNumber > numberOfImage ) { imageIDNumber = 1; }
-	//get the thumbnail by id
-	let img;
-	img = document.getElementById(imageIDNumber);
-	//start spinner
-	spinIt();
-	//animate the preview when clicked
-	img.classList.add("zoom");
-	img.onanimationend = () => {
-		img.classList.remove("zoom");
-	};
-	//change image, open the modal
-	modal.style.display = "grid";
-	pagination.innerHTML = img.dataset.pagination;
-	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
-	currentImage = imageIDNumber;
+// function openModalGallery(imageIDNumber) {
 
-	//upadte title
-	description.innerHTML = img.dataset.description;
-	title.innerHTML = img.dataset.title;
+// 	//looking back , i could have just used an array instead of this id system, oh well...
+// 	modalIsOpen = true;
+// 	//check if image id is within bound, wrap around if not
+// 	imageIDNumber = parseInt(imageIDNumber);
+// 	if ( imageIDNumber == 0 ) { imageIDNumber = numberOfImage; }
+// 	if ( imageIDNumber > numberOfImage ) { imageIDNumber = 1; }
+// 	//get the thumbnail by id
+// 	let img;
+// 	img = document.getElementById(imageIDNumber);
+// 	//start spinner
+// 	spinIt();
+// 	//animate the preview when clicked
+// 	img.classList.add("zoom");
+// 	img.onanimationend = () => {
+// 		img.classList.remove("zoom");
+// 	};
+// 	//change image, open the modal
+// 	modal.style.display = "grid";
+// 	pagination.innerHTML = img.dataset.pagination;
+// 	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
+// 	currentImage = imageIDNumber;
 
-	//update the buy button
-	//TODO: UPDATE THIS TO REFLECT NEW MODAL
-	// if ( img.dataset.externalLink == undefined || img.dataset.externalLink == "" ){
-	// 	purchaseLink.href = "";
-	// 	purchaseLinkText.innerHTML = img.dataset.description;
-	// } else{
-	// 	purchaseLink.href = img.dataset.externalLink;
-	// 	purchaseLinkText.innerHTML = img.dataset.description;
-	// }
+// 	//upadte title
+// 	description.innerHTML = img.dataset.description;
+// 	title.innerHTML = img.dataset.title;
 
-	//prevent scrolling on modal
-	document.body.style.overflow = 'hidden';
-}
+// 	//update the buy button
+// 	//TODO: UPDATE THIS TO REFLECT NEW MODAL
+// 	// if ( img.dataset.externalLink == undefined || img.dataset.externalLink == "" ){
+// 	// 	purchaseLink.href = "";
+// 	// 	purchaseLinkText.innerHTML = img.dataset.description;
+// 	// } else{
+// 	// 	purchaseLink.href = img.dataset.externalLink;
+// 	// 	purchaseLinkText.innerHTML = img.dataset.description;
+// 	// }
+
+// 	//prevent scrolling on modal
+// 	document.body.style.overflow = 'hidden';
+// }
 
 //prev and next
 function nextModal(n) {
 	currentImage += n;
-	openModalGallery(currentImage);
+	openModalGallery(currentImage , galleryName);
 }
 
 //custom right click menu
@@ -160,3 +163,39 @@ image.addEventListener("click", function(){
 		document.body.style.removeProperty('overflow');
 	}
 });
+
+
+// DODGY HACK FOR THAT ONE PORTRAIT GALLERY
+
+function openModalGallery(imageIDNumber , currentGalleryName) {
+	galleryName = currentGalleryName;
+	modalIsOpen = true;
+	//get number of images within that gallery, check if image id is within bound, wrap around if not
+	currentImage = parseInt(imageIDNumber);
+	numberOfImage = document.getElementById(galleryName).dataset.numberOfImages;
+	if ( currentImage == 0 ) { currentImage = parseInt( numberOfImage ); }
+	if ( currentImage > numberOfImage ) { currentImage = 1; }
+	// console.log(currentImage);
+	//get the thumbnail by id
+	let img;
+	//prefaxe the id number by the gallery name
+	img = document.getElementById(galleryName + currentImage);
+	//start spinner
+	spinIt();
+	//animate the preview when clicked
+	img.classList.add("zoom");
+	img.onanimationend = () => {
+		img.classList.remove("zoom");
+	};
+	//change image, open the modal
+	modal.style.display = "grid";
+	pagination.innerHTML = img.dataset.pagination;
+	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
+
+	//upadte title
+	description.innerHTML = img.dataset.description;
+	title.innerHTML = img.dataset.title;
+
+	//prevent scrolling on modal
+	document.body.style.overflow = 'hidden';
+}

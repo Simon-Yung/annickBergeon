@@ -8,7 +8,7 @@ description: "Le trait brut, presque agressif, et passionné de Annick Bergeon e
 <img class="background" src="{{website.url}}/includes/assets/images/bg.jpg">
 <div class="bio_border">
 	<div class="bio_illustration">
-		<img src="{{website.url}}/includes/assets/images/bg.jpg" >
+		<img src="{{website.url}}/includes/assets/images/bg.jpg">
 	</div>
 	<div class="bio_content">
 		<div class="lang_menu"> <span id="fr">FR</span> <span id="en">EN</span> <span id="es">ES</span> </div>

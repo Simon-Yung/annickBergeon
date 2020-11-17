@@ -383,7 +383,7 @@ body{
 	width: 100%;
 	padding: 5px;
 
-	display: flex;
+	display: none; /*flex;*/
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: center;
@@ -669,6 +669,7 @@ body{
 	height: 60px;
 }
 .gallery{
+	width: 100%;
 	max-width: 1050px;
 	margin: 0;
 	padding: 30px 5px 30px 5px;
@@ -738,6 +739,57 @@ body{
 	.gallery{
 		min-width: 00px;
 	}
+}
+/*----------------------galleryline for portraits----------------------*/
+.portrait_gallery_border{
+	overflow-x: auto;
+	max-width: 1050px;
+	width: 100%;
+
+	padding: 0;
+	margin: 0;
+	
+	scrollbar-color: #333333 #777777;
+	scrollbar-width: thin;
+}
+.portrait_gallery_border::-webkit-scrollbar {
+	height: 5px;
+}
+.portrait_gallery_border::-webkit-scrollbar-track {
+	background: #777777;
+}
+.portrait_gallery_border::-webkit-scrollbar-thumb {
+	background-color: #333333 ;
+	border-radius: 5px;
+}
+.portrait_gallery{
+	max-width: 1050px;
+	width: 100%;
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	min-width: 370px; /*300(min width ->text + text margin + intro_box padding)*/
+
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.gallery img{
+	flex: 1 1 200x;
+
+	/* height: auto; */
+	margin: 05px;
+
+	cursor: zoom-in;
+
+	outline: 0 solid rgba(255, 255, 255, 0.5);
+
+	transition: 0s;
+
+	object-fit: cover; 
 }
 /*----------------------page with text----------------------*/
 .text_box{
