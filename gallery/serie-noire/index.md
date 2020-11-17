@@ -55,7 +55,7 @@ images_collection:
     link:
     title: "Sans nom"
     description: "Sur toile\n90 x 90 cm"
-  - image: Serienoire .jpg
+  - image: Serienoire.jpg
     link:
     title: "Série Noire"
     description: ""
