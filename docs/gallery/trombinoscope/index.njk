@@ -5,7 +5,7 @@ title: "Trombinoscope"
 description: "Et là nous pouvons nous contempler tels que nous sommes, avons été ou serons...
 Tricher est impossible; les couleurs, les mouvements imprimés par l'artiste sont vifs"
 cover : ""
-background_color: "rgba(57, 41, 42, 0.5)"
+background_color: "rgba(40, 43, 47, 0.5)"
 image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
@@ -35,27 +35,28 @@ portraits_collection:
 #     description: " Use \ for newline " 
   - image: p1.jpg
     link:
-    title: "Portrait 1 - Muriel"
+    title: "Portrait - Muriel"
     description: "Sur papier\n150 x 130 cm"
   - image: p2.jpg
     link:
-    title: "Portrait 2 - Guy"
+    title: "Portrait - Guy"
     description: "Sur papier\n150 x 130 cm"
   - image: p3.jpg
     link:
-    title: "Portrait 3 - Christiane"
+    title: "Portrait - Christiane"
     description: "Sur papier\n150 x 130 cm"
   - image: p4.jpg
     link:
-    title: "Portrait 4 - Karine"
+    title: "Portrait - Karine"
     description: "Sur papier\n150 x 130 cm"
   - image: p5.jpg
     link:
-    title: "Portrait 5 - Sans nom"
+    title: "Portrait - Sans nom"
     description: "Sur papier\n150 x 130 cm"
 ---
 
 <p><b># TROMBINOSCOPE </b><br>
+<br>
 Et là nous pouvons nous contempler tels que nous sommes, avons été ou serons...<br>
 <br>
 Tricher est impossible; les couleurs, les mouvements imprimés par l'artiste sont vifs, amples et décisifs.<br>
@@ -81,8 +82,8 @@ Se hace importante anexar el tiempo y mirar estas obras con entusiasmo y placer.
 
 <div class="separator"></div>
 
-<div class="portrait_gallery_border">
-<div id="portraits" class="portrait_gallery" style="background-color:{{ background_color }};" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
+<div class="portrait_gallery_border" style="background-color:{{ background_color }};">
+<div id="portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
 			{%- for object in portraits_collection %}
 				<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
 				id="portraits{{loop.index}}" 

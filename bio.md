@@ -5,7 +5,7 @@ lang: fr
 image: "/includes/assets/images/JCP3.jpg"
 description: "Le trait brut, presque agressif, et passionné de Annick Bergeon exhibe la détermination d'une Artiste au langage épistolaire, éminemment poétique."
 ---
-<img class="background" src="{{website.url}}/includes/assets/images/bg.jpg">
+<img class="background" style="object-position: center 70%;filter:blur(1px);" src="{{website.url}}/includes/assets/images/bg.jpg">
 <div class="bio_border">
 	<div class="bio_illustration">
 		<img src="{{website.url}}/includes/assets/images/bg.jpg">
@@ -56,6 +56,7 @@ Annick Bergeon está en su ímpetu creativo y salvaje; ¡&nbsp;sin restricciones
 		</div>
 	</div>
 </div>
+<div class="separator"></div>
 <div class="separator"></div>
 
 <script>

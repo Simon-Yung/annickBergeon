@@ -17,8 +17,8 @@ images_collection:
     description: "Sur contreplaqué \n102 x 102 cm"
   - image: 2.jpg
     link:
-    title: "Le chien peut-être andalou"
-    description: "Passe - sur châssis \n100 x 150 cm "
+    title: "Triptyque : Le chien peut-être andalou Passe"
+    description: "Sur châssis \n100 x 150 cm "
   - image: 3.jpg
     link:
     title: "Entre chien and queen"
