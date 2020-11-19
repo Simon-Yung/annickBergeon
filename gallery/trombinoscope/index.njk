@@ -85,7 +85,7 @@ Se hace importante anexar el tiempo y mirar estas obras con entusiasmo y placer.
 <div class="portrait_gallery_border" style="background-color:{{ background_color }};">
 <div id="portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
 			{%- for object in portraits_collection %}
-				<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+				<img class ="portrait_preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
 				id="portraits{{loop.index}}" 
 				onclick="openModalGallery( {{loop.index}} , 'portraits')" 
 				data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 

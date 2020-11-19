@@ -149,6 +149,8 @@ body{
 }
 .social_icon{
 	height: 1.5rem;
+
+	margin-left: 5px;
 }
 .social_icon img{
 	height: 1.5rem;
@@ -776,8 +778,8 @@ body{
 	justify-content: flex-start;
 	align-items: stretch;
 }
-.portrait_gallery img{
-	flex: 1 1 200x;
+.portrait_preview{
+	flex: 1 1 100px;
 
 	/* height: auto; */
 	margin: 07px;
@@ -790,6 +792,12 @@ body{
 
 	object-fit: cover; 
 }
+@media screen and (max-width: 475px) {
+	.portrait_gallery_border{}
+	.portrait_gallery{flex-wrap: wrap;height: auto;min-width:0;justify-content: center;align-content: center;}
+	.portrait_preview{flex: 0 1 100px;}
+}
+
 /*----------------------page with text----------------------*/
 .text_box{
 	margin: 60px 30px 60px 30px;
