@@ -5,7 +5,7 @@ function resize(className,scale) {
 
 	items = document.getElementsByClassName(className);
 	for (i = 0; i < items.length ; i++) {
-		let ratio = (items[i].naturalWidth * scale / items[i].naturalHeight);
+		let ratio = (items[i].naturalWidth * scale / items[i].naturalHeight) + parseInt(items[i].dataset.extraWidth);
 		let flexBasis = ratio + 'px';
 		items[i].style.flex = flexBasis;
 		items[i].style.flexGrow = ratio;
@@ -24,7 +24,7 @@ function resizeLastLine(scale) {
 
 	for (i = items.length - 1; i > -1; i--) {
 		let currItem = items[i].getBoundingClientRect().top;
-		if ( lastItem == currItem) {
+		if ( lastItem == currItem && items[i].dataset.extraWidth == "0" ) {
 			items[i].style.flexGrow = '0';
 		} else {
 

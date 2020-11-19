@@ -682,7 +682,7 @@ body{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 
 	background-color: rgba(0,0,0,0.50);
 }
@@ -700,8 +700,9 @@ body{
 
 	object-fit: contain; /*used to be cover*/
 }
-.lucien_preview{
-	flex: 1 1 100%;
+.special_preview{
+	flex: 1 1 0px;
+	width: 0px;
 
 	/* height: auto; */
 	margin: 07px;
@@ -714,7 +715,7 @@ body{
 
 	object-fit: contain;  /*used to be cover*/
 }
-.preview:hover, .lucien_preview:hover{
+.preview:hover, .special_preview:hover{
 	outline: 10px solid rgba(0,0,0,0.0);
 
 	transition: ease-out 0.5s;

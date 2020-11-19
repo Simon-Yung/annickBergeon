@@ -1,5 +1,5 @@
 ---
-layout: "gallery+lucien.njk"
+layout: "gallery.njk"
 date: "2000-01-20"
 title: "Serie Noire"
 description: "Énonciation pariétale, parfois ; Art Brut, pourquoi pas, figuration contemporaine, définitivementm !! "
@@ -55,10 +55,11 @@ images_collection:
     link:
     title: "Série Noire"
     description: ""
-#   - image: 7.jpg
-#     link:
-#     title: "Lucien"
-#     description: "Sur châssis \n60 x 60 cm"
+  - image: 7.jpg
+    link:
+    title: "Lucien"
+    description: "Sur châssis \n60 x 60 cm"
+    extra_width: 120
 ---
 
 

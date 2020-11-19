@@ -38,6 +38,7 @@ images_collection:
     link:
     title: "L'entourage d'Ubu"
     description: "Acrylique, encre, collage, pastel sur toile\n130 x 110 cm"
+    extra_width: 0
   - image: 6.jpg
     link:
     title: "Ubu Roi"
@@ -50,14 +51,15 @@ images_collection:
     link:
     title: "The queen sur médium"
     description: "Acrylique, encre, collage, pastel sur medium\n110 x 80 cm"
+    extra_width: 100
   - image: 9.jpg
     link:
     title: "Venceslas et une autre queen"
     description: "Acrylique, encre, collage, pastel sur papier indien\n135 x 95 cm"
-  - image: 10.jpg
-    link:
-    title: "Boleslas de Pologne"
-    description: "Acrylique, encre, collage, pastel sur papier\n 150 x 130 cm"
+#   - image: 10.jpg
+#     link:
+#     title: "Boleslas de Pologne"
+#     description: "Acrylique, encre, collage, pastel sur papier\n 150 x 130 cm"
   - image: 11.jpg
     link:
     title: "The queen au jardin"

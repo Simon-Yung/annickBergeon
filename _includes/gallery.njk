@@ -45,15 +45,30 @@ background_color: "rgba(0,0,0,0.5)"
 			data-buy-text="{{buy_text}}" 
 			data-request-text="{{request_text}}">
 			{%- for object in images_collection %}
-				<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+			{%- if object.extra_width %}
+				<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}"
 {# the gallery dom id (in this case id=gallery ) followed by the id number(aka loop index) #}
 				id="gallery{{loop.index}}" 
 {# the second argument is mendatory, use the gallery dom id #}
-				onclick="openModalGallery( {{loop.index}} , 'gallery')" 
+				onclick="openModalGallery( {{loop.index}} , 'gallery')"  
+				data-extra-width="{{object.extra_width}}" 
 				data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
 				data-external-link="{{object.link}}"
 				data-title="{{object.title | replace('\n', '<br>') }}"
 				data-description="{{object.description | replace('\n', '<br>') }}" >
+			{%- else %}
+				<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+{# the gallery dom id (in this case id=gallery ) followed by the id number(aka loop index) #}
+				id="gallery{{loop.index}}" 
+{# the second argument is mendatory, use the gallery dom id #}
+				onclick="openModalGallery( {{loop.index}} , 'gallery')"  
+{# extra width HAS TO BE A NUMBER  or else massonry resize will break #}
+				data-extra-width="0" 
+				data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
+				data-external-link="{{object.link}}"
+				data-title="{{object.title | replace('\n', '<br>') }}"
+				data-description="{{object.description | replace('\n', '<br>') }}" >
+			{%- endif%}
 			{%- endfor %}
 			</div>
 
