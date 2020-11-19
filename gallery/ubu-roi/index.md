@@ -90,7 +90,7 @@ images_collection:
 Et que voici une écriture si ironique, si forte de couleurs; donc, si subtile et intelligente.  
 Et là nous pouvons par ces travaux étonnants contempler nos bêtises, nos attitudes si peu équivoques, car souvent terriblement ridicules, ostentatoires et bêtement arrogantes&nbsp;!!  
 &nbsp;  
-Merdre
+Merdre&nbsp;!
 
 
 **# UBU**  
@@ -98,7 +98,7 @@ Merdre
 And that here is such ironic an writing, so strong in colour; so subtle and intelligent.  
 And through these astonishing works we are able to contemplate our stupidities, our so unequivocal attitudes, often terribly ridiculous, ostentatious and foolishly arrogant&nbsp;!!  
 &nbsp;  
-Merdre
+Merdre&nbsp;!
 
 
 **# UBU**  
@@ -106,4 +106,4 @@ Merdre
 Y que aquí hay una escritura tan irónica, tan fuerte de colores; por lo tanto, tan sutil e inteligente.  
 Y allí podemos, por estas obras asombrosas, contemplar nuestra tontería, nuestras actitudes tan inequívocas, a menudo terriblemente ridículas&nbsp;!!  
 &nbsp;  
-Merdre
+Merdre&nbsp;!
