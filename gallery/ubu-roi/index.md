@@ -58,6 +58,10 @@ images_collection:
     link:
     title: "Boleslas de Pologne"
     description: "Acrylique, encre, collage, pastel sur papier\n 150 x 130 cm"
+  - image: 11.jpg
+    link:
+    title: "The queen au jardin"
+    description: "Acrylique, encre, collage, pastel\n 200 x 152 cm"
 
 
   - image: o1.jpg
@@ -76,14 +80,14 @@ images_collection:
     link:
     title: "Ubu épris de sa reine"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x 95 cm"
-  - image: o16.jpg
-    link:
-    title: "Mère Ubu"
-    description: "Acrylique, encre, collage, pastel sur papier \n 60 x 40 cm"
-  - image: o3.jpg
-    link:
-    title: "Ubu, son portrait"
-    description: "Acrylique, encre, collage, pastel sur papier \n- 150 x 130 cm"
+#   - image: o16.jpg
+#     link:
+#     title: "Mère Ubu"
+#     description: "Acrylique, encre, collage, pastel sur papier \n 60 x 40 cm"
+#   - image: o3.jpg
+#     link:
+#     title: "Ubu, son portrait"
+#     description: "Acrylique, encre, collage, pastel sur papier \n- 150 x 130 cm"
 ---
 **# UBU**  
 &nbsp;  

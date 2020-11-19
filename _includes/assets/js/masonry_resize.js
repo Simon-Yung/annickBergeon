@@ -7,10 +7,11 @@ function resize(className,scale) {
 	for (i = 0; i < items.length ; i++) {
 		let ratio = (items[i].naturalWidth * scale / items[i].naturalHeight);
 		let flexBasis = ratio + 'px';
-		items[i].style.width = flexBasis; //because google won't behave  // this actually causes problem when image are larger than the wievport width
 		items[i].style.flex = flexBasis;
 		items[i].style.flexGrow = ratio;
 		items[i].style.flexShrink = '1';
+		//width assignated last otherwise some browser overide it by flex bassis
+		items[i].style.width = flexBasis; //because google won't behave  // this actually causes problem when image are larger than the wievport width
 	};
   
 }

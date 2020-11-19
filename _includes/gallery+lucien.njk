@@ -1,0 +1,69 @@
+---
+title: "gallery"
+description: ""
+permalink: "gallery/{{page.fileSlug}}/"
+tags: chapters
+buy_text: ""
+request_text: ""
+background: "bg.jpg"
+background_color: "rgba(0,0,0,0.5)"
+---
+<!doctype html>
+<html style="scroll-behavior: smooth;">
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="{{website.url}}/includes/assets/css/styles.css">
+		<script src="{{website.url}}/includes/assets/js/modal_gallery.js" defer> </script>
+		<script src="{{website.url}}/includes/assets/js/masonry_resize.js" defer> </script>
+		
+		<!--overides-->
+		<meta property="og:image" content="{{website.completeUrl}}/gallery/{{page.fileSlug}}/larges/{{ images_collection[1].image }}">
+		
+		{% include "components/metadata.njk" %}
+	</head>
+	<body class="gallery_page">
+		<img class="background" src="{{website.url}}/gallery/{{page.fileSlug}}/{{background}}">
+
+		{% include "components/header.njk" %}
+
+		<div class="gallery_border">
+			
+			<div class="separator"></div>
+
+			<div class="return_button_bar"><a href="{{website.url}}/gallery" class="return_button" style="background-color:{{ background_color }};"><span>&#9668;&nbsp;</span><span class="return">RETOUR</span></a></div>
+
+			<div class="intro_box" style="background-color:{{ background_color }};">
+			{{ content | safe }}
+			</div>
+				
+
+			<div class="separator"></div>
+
+			<div id="gallery" class="gallery" style="background-color:{{ background_color }};" 
+			data-number-of-images ="{{ images_collection | length + 1}}" 
+			data-scaling-ratio="{{image_scaling}}" 
+			data-buy-text="{{buy_text}}" 
+			data-request-text="{{request_text}}">
+			{%- for object in images_collection %}
+				<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+{# the gallery dom id (in this case id=gallery ) followed by the id number(aka loop index) #}
+				id="gallery{{loop.index}}" 
+{# the second argument is mendatory, use the gallery dom id #}
+				onclick="openModalGallery( {{loop.index}} , 'gallery')" 
+				data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
+				data-external-link="{{object.link}}"
+				data-title="{{object.title | replace('\n', '<br>') }}"
+				data-description="{{object.description | replace('\n', '<br>') }}" >
+			{%- endfor %}
+			<img class="lucien_preview" src="/gallery/serie-noire/thumbnails/7.jpg" id="gallery{{ images_collection | length + 1}}" onclick="openModalGallery( {{ images_collection | length + 1}} , 'gallery')" data-pagination="12/" data-external-link="" data-title="Lucien" data-description="Sur châssis <br>60 x 60 cm" style="flex: 1 1 243.902px; width: 243.902px;">
+			</div>
+
+			<div class="separator"></div>
+
+		</div>
+
+
+		{% include "components/footer.njk" %}
+		{% include "components/modal.njk" %}
+	</body>
+</html>

@@ -1,5 +1,5 @@
 ---
-layout: "gallery.njk"
+layout: "gallery+lucien.njk"
 date: "2000-01-20"
 title: "Serie Noire"
 description: "Énonciation pariétale, parfois ; Art Brut, pourquoi pas, figuration contemporaine, définitivementm !! "
@@ -17,7 +17,7 @@ images_collection:
     description: "Sur contreplaqué \n102 x 102 cm"
   - image: 2.jpg
     link:
-    title: "Triptyque : Le chien peut-être andalou Passe"
+    title: "Triptyque : Le chien peut-être andalou passe"
     description: "Sur châssis \n100 x 150 cm "
   - image: 3.jpg
     link:
@@ -35,10 +35,6 @@ images_collection:
     link:
     title: "La MTP"
     description: "Sur contreplaqué \n130 x 80 cm"
-  - image: 7.jpg
-    link:
-    title: "Lucien"
-    description: "Sur châssis \n60 x 60 cm"
   - image: 8.jpg
     link:
     title: "Quand the queen rit jaune"
@@ -59,6 +55,10 @@ images_collection:
     link:
     title: "Série Noire"
     description: ""
+#   - image: 7.jpg
+#     link:
+#     title: "Lucien"
+#     description: "Sur châssis \n60 x 60 cm"
 ---
 
 
