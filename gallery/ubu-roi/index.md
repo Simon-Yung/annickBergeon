@@ -6,7 +6,7 @@ description: "Et que voici une écriture si ironique, si forte de couleurs; donc
 Et là nous pouvons par ces travaux étonnants contempler nos bêtises,"
 cover : ""
 background_color: "rgba(16, 25, 51, 0.5)"
-image_scaling: "300" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
@@ -28,7 +28,7 @@ images_collection:
     link:
     title: "Mère Ubu dessin"
     description: "Dessin\n20 x 30 cm"
-    extra_width: 10
+    extra_width: 20
   - image: 4.jpg
     link:
     title: "Famille royale"
@@ -43,7 +43,7 @@ images_collection:
     link:
     title: "L'entourage d'Ubu"
     description: "Acrylique, encre, collage, pastel sur toile\n130 x 110 cm"
-    extra_width: 10
+    extra_width: 30
   - image: 6.jpg
     link:
     title: "Ubu Roi"
@@ -58,7 +58,7 @@ images_collection:
     link:
     title: "The queen sur médium"
     description: "Acrylique, encre, collage, pastel sur medium\n110 x 80 cm"
-    extra_width: 100
+    extra_width: 10
   - image: 9.jpg
     link:
     title: "Venceslas et une autre queen"
