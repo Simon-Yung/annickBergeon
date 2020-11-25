@@ -17,36 +17,43 @@ images_collection:
     title: "Ubu à l'état brut"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x
     95 cm"
+    extra_width: 50
 
   - image: 2.jpg
     link:
     title: "Famille royale"
     description: "Acrylique, encre, collage, pastel sur papier\n80 x 60 cm"
+    extra_width: 
   - image: 3.jpg
     link:
     title: "Mère Ubu dessin"
     description: "Dessin\n20 x 30 cm"
+    extra_width: 10
   - image: 4.jpg
     link:
     title: "Famille royale"
     description: "Acrylique, encre, collage, pastel sur papier Indien\n135 x 95 cm"
+    extra_width: 0
   - image: 1.jpg
     link:
     title: "Ne baisons pas les bras"
     description: "Acrylique, encre, collage, pastel sur papier \n40  x 60 cm"
+    extra_width: 20
   - image: 5.jpg
     link:
     title: "L'entourage d'Ubu"
     description: "Acrylique, encre, collage, pastel sur toile\n130 x 110 cm"
-    extra_width: 0
+    extra_width: 10
   - image: 6.jpg
     link:
     title: "Ubu Roi"
     description: "Acrylique, encre, collage, pastel sur papier\n140 x 100 cm"
+    extra_width: 20
   - image: 7.jpg
     link:
     title: "The queen sur toile"
     description: "Acrylique, encre, collage, pastel sur toile\n 106 x 66 cm"
+    extra_width: 50
   - image: 8.jpg
     link:
     title: "The queen sur médium"
@@ -56,6 +63,7 @@ images_collection:
     link:
     title: "Venceslas et une autre queen"
     description: "Acrylique, encre, collage, pastel sur papier indien\n135 x 95 cm"
+    extra_width: 0
 #   - image: 10.jpg
 #     link:
 #     title: "Boleslas de Pologne"
@@ -64,25 +72,30 @@ images_collection:
     link:
     title: "The queen au jardin"
     description: "Acrylique, encre, collage, pastel\n 200 x 152 cm"
+    extra_width: 10
 
 
   - image: o1.jpg
     link:
     title: "Ubu et son épouse, les pieds dans l'eau"
     description: "Acrylique, encre, collage, pastel sur papier \n 200 x 152 cm"
+    extra_width: 20
   - image: o2.jpg
     link:
     title: "Ubu, Mère et Venceslas"
     description: "Acrylique, encre, collage, pastel sur papier \n200 x 152 cm "
+    extra_width: 0
   - image: o8.jpg
     link:
     title: "Mère Ubu et Venceslas"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x 95 cm"
+    extra_width: 30
   - image: o9.jpg
     link:
     title: "Ubu épris de sa reine"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x 95 cm"
 #   - image: o16.jpg
+    extra_width: 50
 #     link:
 #     title: "Mère Ubu"
 #     description: "Acrylique, encre, collage, pastel sur papier \n 60 x 40 cm"

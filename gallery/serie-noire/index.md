@@ -15,46 +15,57 @@ images_collection:
     link:
     title: "Dominique"
     description: "Sur contreplaqué \n102 x 102 cm"
+    extra_width: 0
   - image: 2.jpg
     link:
     title: "Triptyque : Le chien peut-être andalou passe"
     description: "Sur châssis \n100 x 150 cm "
+    extra_width: 15
   - image: 3.jpg
     link:
     title: "Entre chien and queen"
     description: "Sur châssis \n130 x 80 cm"
+    extra_width: 0
   - image: 4.jpg
     link:
     title: "Gisèle"
     description: "Sur médium\n 110 x 80 cm"
+    extra_width: 0
   - image: 5.jpg
     link:
     title: "Georges"
     description: "Sur châssis\n40 x 40 cm"
+    extra_width: 15
   - image: 6.jpg
     link:
     title: "La MTP"
     description: "Sur contreplaqué \n130 x 80 cm"
+    extra_width: 25
   - image: 8.jpg
     link:
     title: "Quand the queen rit jaune"
     description: "Sur carton \n125 x 61 cm"
+    extra_width: 0
   - image: 9.jpg
     link:
     title: "The queen à l'envers ou reine de Pologne"
     description: "Sur médium\n 110 x 80 cm"
+    extra_width: 10
   - image: 10.jpg
     link:
     title: "Sans nom"
     description: "sur papier\n42 x 60 cm"
+    extra_width: 25
   - image: 11.jpg
     link:
     title: "Sans nom"
     description: "Sur toile\n90 x 90 cm"
+    extra_width: 5
   - image: Serienoire.jpg
     link:
     title: "Série Noire"
     description: ""
+    extra_width: 10
   - image: 7.jpg
     link:
     title: "Lucien"

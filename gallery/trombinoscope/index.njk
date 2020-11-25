@@ -16,10 +16,12 @@ images_collection:
     link: 
     title: "9 portraits"
     description: "Sur papier\n150 x 110 cm"
+    extra_width: 10
   - image: 11.jpg
     link:
     title: "Portrait de Famille"
     description: "Sur chassis\n100 x 150 cm"
+    extra_width: 5
   - image: 12.jpg
     link: 
     title: "9 portraits"
@@ -29,6 +31,7 @@ images_collection:
     link:
     title: "5 Venceslas"
     description: ""
+
 portraits_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
@@ -53,6 +56,28 @@ portraits_collection:
   - image: p5.jpg
     link:
     title: "Portrait - Sans nom"
+    description: "Sur papier\n150 x 130 cm"
+
+second_portraits_collection:
+#   les images produits son dans le dossier "products" 
+#   - image: nom_de_l_image.jpg
+#     link: https://www.pcagallery.com/example KEEP THE https://
+#     description: " Use \ for newline " 
+  - image: p2_1.jpg
+    link:
+    title: "Ubu, son portrait"
+    description: "Acrylique, encre, collage, pastel sur papier \n- 150 x 130 cm"
+  - image: p2_3.jpg
+    link:
+    title: "Boleslas de Pologne"
+    description: "Sur papier\n150 x 130 cm"
+  - image: p2_2.jpg
+    link:
+    title: "Venceslas"
+    description: "Sur papier\n150 x 130 cm"
+  - image: p2_4.jpg
+    link:
+    title: "André"
     description: "Sur papier\n150 x 130 cm"
 ---
 
@@ -84,14 +109,30 @@ Se hace importante anexar el tiempo y mirar estas obras con entusiasmo y placer.
 <div class="separator"></div>
 
 <div class="portrait_gallery_border" style="background-color:{{ background_color }};">
-<div id="portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
-			{%- for object in portraits_collection %}
-				<img class ="portrait_preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
-				id="portraits{{loop.index}}" 
-				onclick="openModalGallery( {{loop.index}} , 'portraits')" 
-				data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
-				data-external-link="{{object.link}}"
-				data-title="{{object.title | replace('\n', '<br>') }}"
-				data-description="{{object.description | replace('\n', '<br>') }}" >
-			{%- endfor %}
+	<div id="portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
+				{%- for object in portraits_collection %}
+					<img class ="portrait_preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+					id="portraits{{loop.index}}" 
+					onclick="openModalGallery( {{loop.index}} , 'portraits')" 
+					data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
+					data-external-link="{{object.link}}"
+					data-title="{{object.title | replace('\n', '<br>') }}"
+					data-description="{{object.description | replace('\n', '<br>') }}" >
+				{%- endfor %}
+	</div>
 </div>
+
+<div class="separator"></div>
+
+<div class="portrait_gallery_border" style="background-color:{{ background_color }};">
+	<div id="second_portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
+				{%- for object in second_portraits_collection %}
+					<img class ="portrait_preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+					id="portraits{{loop.index}}" 
+					onclick="openModalGallery( {{loop.index}} , 'portraits')" 
+					data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
+					data-external-link="{{object.link}}"
+					data-title="{{object.title | replace('\n', '<br>') }}"
+					data-description="{{object.description | replace('\n', '<br>') }}" >
+				{%- endfor %}
+	</div>
