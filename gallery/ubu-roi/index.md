@@ -6,7 +6,7 @@ description: "Et que voici une écriture si ironique, si forte de couleurs; donc
 Et là nous pouvons par ces travaux étonnants contempler nos bêtises,"
 cover : ""
 background_color: "rgba(16, 25, 51, 0.5)"
-image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "265" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
@@ -17,18 +17,17 @@ images_collection:
     title: "Ubu à l'état brut"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x
     95 cm"
-    extra_width: 50
-
+    extra_width: 10
   - image: 2.jpg
     link:
     title: "Famille royale"
     description: "Acrylique, encre, collage, pastel sur papier\n80 x 60 cm"
-    extra_width: 
+    extra_width: 0
   - image: 3.jpg
     link:
     title: "Mère Ubu dessin"
     description: "Dessin\n20 x 30 cm"
-    extra_width: 20
+    extra_width: 0
   - image: 4.jpg
     link:
     title: "Famille royale"
@@ -38,31 +37,27 @@ images_collection:
     link:
     title: "Ne baisons pas les bras"
     description: "Acrylique, encre, collage, pastel sur papier \n40  x 60 cm"
-    extra_width: 20
+    extra_width: 0
+    newLine: true
   - image: 5.jpg
     link:
     title: "L'entourage d'Ubu"
     description: "Acrylique, encre, collage, pastel sur toile\n130 x 110 cm"
-    extra_width: 30
+    extra_width: 0
   - image: 6.jpg
     link:
     title: "Ubu Roi"
     description: "Acrylique, encre, collage, pastel sur papier\n140 x 100 cm"
-    extra_width: 20
+    extra_width: 020
   - image: 7.jpg
     link:
     title: "The queen sur toile"
     description: "Acrylique, encre, collage, pastel sur toile\n 106 x 66 cm"
-    extra_width: 50
+    extra_width: 0
   - image: 8.jpg
     link:
     title: "The queen sur médium"
     description: "Acrylique, encre, collage, pastel sur medium\n110 x 80 cm"
-    extra_width: 10
-  - image: 9.jpg
-    link:
-    title: "Venceslas et une autre queen"
-    description: "Acrylique, encre, collage, pastel sur papier indien\n135 x 95 cm"
     extra_width: 0
 #   - image: 10.jpg
 #     link:
@@ -72,30 +67,35 @@ images_collection:
     link:
     title: "The queen au jardin"
     description: "Acrylique, encre, collage, pastel\n 200 x 152 cm"
-    extra_width: 10
-
-
+    extra_width: 0
+    newLine: true
   - image: o1.jpg
     link:
     title: "Ubu et son épouse, les pieds dans l'eau"
     description: "Acrylique, encre, collage, pastel sur papier \n 200 x 152 cm"
-    extra_width: 20
+    extra_width: 0
   - image: o2.jpg
     link:
     title: "Ubu, Mère et Venceslas"
     description: "Acrylique, encre, collage, pastel sur papier \n200 x 152 cm "
     extra_width: 0
+  - image: 9.jpg
+    link:
+    title: "Venceslas et une autre queen"
+    description: "Acrylique, encre, collage, pastel sur papier indien\n135 x 95 cm"
+    extra_width: 0
+    newLine: true
   - image: o8.jpg
     link:
     title: "Mère Ubu et Venceslas"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x 95 cm"
-    extra_width: 30
+    extra_width: 10
   - image: o9.jpg
     link:
     title: "Ubu épris de sa reine"
     description: "Acrylique, encre, collage, pastel sur papier Indien \n 135 x 95 cm"
+    extra_width: 0
 #   - image: o16.jpg
-    extra_width: 50
 #     link:
 #     title: "Mère Ubu"
 #     description: "Acrylique, encre, collage, pastel sur papier \n 60 x 40 cm"

@@ -5,7 +5,7 @@ title: "Serie Noire"
 description: "Énonciation pariétale, parfois ; Art Brut, pourquoi pas, figuration contemporaine, définitivementm !! "
 cover: ""
 background_color: "rgba( 0, 0, 0, 0.5)"
-image_scaling: "250" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "300" #en pixel, la taille verticale minimum des images presentes dans la gallery
 images_collection:
 #   les images produits son dans le dossier "products" 
 #   - image: nom_de_l_image.jpg
@@ -15,22 +15,22 @@ images_collection:
     link:
     title: "Dominique"
     description: "Sur contreplaqué \n102 x 102 cm"
-    extra_width: 0
   - image: 2.jpg
     link:
     title: "Triptyque : Le chien peut-être andalou passe"
     description: "Sur châssis \n100 x 150 cm "
-    extra_width: 15
   - image: 3.jpg
     link:
     title: "Entre chien and queen"
     description: "Sur châssis \n130 x 80 cm"
     extra_width: 0
+
   - image: 4.jpg
     link:
     title: "Gisèle"
     description: "Sur médium\n 110 x 80 cm"
     extra_width: 0
+    newLine: true
   - image: 5.jpg
     link:
     title: "Georges"
@@ -40,7 +40,8 @@ images_collection:
     link:
     title: "La MTP"
     description: "Sur contreplaqué \n130 x 80 cm"
-    extra_width: 25
+    extra_width: 0
+    
   - image: 8.jpg
     link:
     title: "Quand the queen rit jaune"
@@ -50,22 +51,29 @@ images_collection:
     link:
     title: "The queen à l'envers ou reine de Pologne"
     description: "Sur médium\n 110 x 80 cm"
-    extra_width: 10
+    extra_width: 0
+    newLine: true
   - image: 10.jpg
     link:
     title: "Sans nom"
     description: "sur papier\n42 x 60 cm"
-    extra_width: 25
+    extra_width: 0
   - image: 11.jpg
     link:
     title: "Sans nom"
     description: "Sur toile\n90 x 90 cm"
-    extra_width: 5
+    extra_width: 0
+  - image: 12.jpg
+    link:
+    title: "Tétraptyque"
+    description: "sur châssis\n120 x 240 cm"
+    extra_width: 0
   - image: Serienoire.jpg
     link:
     title: "Série Noire"
     description: ""
-    extra_width: 10
+    extra_width: 0
+    newLine: true
   - image: 7.jpg
     link:
     title: "Lucien"

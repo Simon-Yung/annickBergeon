@@ -671,21 +671,30 @@ body{
 .separator{
 	height: 60px;
 }
+.galery_background{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	background-color: rgba(0,0,0,0.50);
+	
+	padding: 30px 0 30px 0;
+	max-width: 1050px;
+}
 .gallery{
 	width: 100%;
-	max-width: 1050px;
 	margin: 0;
-	padding: 30px 5px 30px 5px;
+	/* padding: 30px 5px 30px 5px; */
+	padding: 0;
 	min-width: 370px; /*300(min width ->text + text margin + intro_box padding)*/
 
 	display:flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: flex-start;
-	align-items: center;
-
-	background-color: rgba(0,0,0,0.50);
+	align-items: flex-start;
 }
+
 .preview{
 	flex: 1 1 auto;
 
@@ -700,22 +709,8 @@ body{
 
 	object-fit: contain; /*used to be cover*/
 }
-.special_preview{
-	flex: 1 1 0px;
-	width: 0px;
 
-	/* height: auto; */
-	margin: 07px;
-
-	cursor: zoom-in;
-
-	outline: 0 solid rgba(255, 255, 255, 0.5);
-
-	transition: 0s;
-
-	object-fit: contain;  /*used to be cover*/
-}
-.preview:hover, .special_preview:hover{
+.preview:hover{
 	outline: 10px solid rgba(0,0,0,0.0);
 
 	transition: ease-out 0.5s;
