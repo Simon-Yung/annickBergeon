@@ -684,7 +684,8 @@ body{
 .gallery{
 	width: 100%;
 	margin: 0;
-	padding: 0 7px 0 7px;
+	/* padding: 30px 5px 30px 5px; */
+	padding: 0;
 	min-width: 370px; /*300(min width ->text + text margin + intro_box padding)*/
 
 	display:flex;
@@ -734,14 +735,6 @@ body{
 		flex: 1 1 100%;
 	}
 }
-@media screen and (max-width: 600px) {
-	.preview{
-		margin: 05px;
-	}
-	.gallery{
-		flex-wrap: wrap;
-	}
-}
 @media screen and (max-width: 370px) {
 	.gallery_border{
 		padding: 00px 00px 00px 00px;
@@ -785,7 +778,8 @@ body{
 	max-width: 1050px;
 	width: 100%;
 	margin: 0;
-	padding: 30px 7px 30px 7px;
+	padding: 5px 5px 5px 5px;
+	padding: 30px 5px 30px 5px;
 	min-width: 370px; /*300(min width ->text + text margin + intro_box padding)*/
 
 	display:flex;
@@ -815,13 +809,9 @@ body{
 	transition: ease-out 0.5s;
 }
 @media screen and (max-width: 475px) {
+	.portrait_gallery_border{}
 	.portrait_gallery{flex-wrap: wrap;height: auto;min-width:0;justify-content: center;align-content: center;}
-	/* .portrait_preview{flex: 0 1 100px;} */
-}
-@media screen and (max-width: 600px) {
-	.portrait_preview{
-		margin: 05px;
-	}
+	.portrait_preview{flex: 0 1 100px;}
 }
 
 /*----------------------page with text----------------------*/
