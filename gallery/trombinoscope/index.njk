@@ -39,6 +39,7 @@ portraits_collection:
     link:
     title: "Portrait - Muriel"
     description: "Sur papier\n150 x 130 cm"
+    extra_width: 10
   - image: p2.jpg
     link:
     title: "Portrait - Guy"
@@ -47,14 +48,17 @@ portraits_collection:
     link:
     title: "Portrait - Christiane"
     description: "Sur papier\n150 x 130 cm"
+    extra_width: 25
   - image: p4.jpg
     link:
     title: "Portrait - Karine"
     description: "Sur papier\n150 x 130 cm"
+    extra_width: 15
   - image: p5.jpg
     link:
     title: "Portrait - Sans nom"
     description: "Sur papier\n150 x 130 cm"
+    extra_width: 20
   - image: p2_4.jpg
     link:
     title: "André"
@@ -73,6 +77,7 @@ second_portraits_collection:
     link:
     title: "Boleslas de Pologne"
     description: "Sur papier\n150 x 130 cm"
+    extra_width: -15
   - image: p2_2.jpg
     link:
     title: "Venceslas"
@@ -109,9 +114,10 @@ Se hace importante anexar el tiempo y mirar estas obras con entusiasmo y placer.
 <div class="portrait_gallery_border" style="background-color:{{ background_color }};">
 	<div id="portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
 				{%- for object in portraits_collection %}
-					<img class ="portrait_preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+					<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
 					id="portraits{{loop.index}}" 
 					onclick="openModalGallery( {{loop.index}} , 'portraits')" 
+					data-extra-width="{{object.extra_width}}" 
 					data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
 					data-external-link="{{object.link}}"
 					data-title="{{object.title | replace('\n', '<br>') }}"
@@ -125,9 +131,10 @@ Se hace importante anexar el tiempo y mirar estas obras con entusiasmo y placer.
 <div class="portrait_gallery_border" style="background-color:{{ background_color }};">
 	<div id="second_portraits" class="portrait_gallery" data-number-of-images ="{{ portraits_collection | length }}" data-scaling-ratio="{{image_scaling}}" data-buy-text="" data-request-text="">
 				{%- for object in second_portraits_collection %}
-					<img class ="portrait_preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+					<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
 					id="second_portraits{{loop.index}}" 
 					onclick="openModalGallery( {{loop.index}} , 'second_portraits')" 
+					data-extra-width="{{object.extra_width}}" 
 					data-pagination="{{loop.index}}/{{totalNumberOfImages}}" 
 					data-external-link="{{object.link}}"
 					data-title="{{object.title | replace('\n', '<br>') }}"

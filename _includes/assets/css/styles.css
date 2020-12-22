@@ -788,6 +788,7 @@ body{
 	justify-content: center;
 	align-items: flex-start;
 }
+/*vvvv unused vvv*/
 .portrait_preview{
 	flex: 1 1 100px;
 	width: 100px;
