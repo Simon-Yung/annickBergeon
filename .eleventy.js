@@ -1,5 +1,7 @@
 const fg = require('fast-glob');
 const sizeOf = require('image-size');
+var url = require('url');
+var http = require('http');
 
 function searchByGlob(glob){
 	//this function DOES NOT return the initial / slash 
@@ -32,11 +34,24 @@ module.exports = function(eleventyConfig) {
 
 	);
 
-	eleventyConfig.addFilter("masonry", function(value,collectionName,websiteUrl,extraWidth) {
-		let dimensions = sizeOf( '/gallery/' + collectionName + '/thumbnails/' + value);
-		let ratio = (dimensions.width * 100 / items[i].dimensions.height) + parseInt(extraWidth);
-		return 'style="flex: ' + ratio + '1 ' + ratio + 'px; width: ' + ratio + 'px;"';
-	});
+	// eleventyConfig.addFilter("masonry", function(value,collectionName,websiteUrl,extraWidth) {
+	// 	let options = url.parse( 'http://' + websiteUrl + '/gallery/' + collectionName + '/thumbnails/' + value);
+
+	// 	http.get(options, function (response) {
+	// 		var chunks = [];
+	// 		response.on('data', function (chunk) {
+	// 			chunks.push(chunk);
+	// 		}).on('end', function() {
+	// 			var buffer = Buffer.concat(chunks);
+	// 			console.log(sizeOf(buffer));
+	// 		});
+	// 	});
+
+
+	// 	// let dimensions = sizeOf( websiteUrl + '/gallery/' + collectionName + '/thumbnails/' + value);
+	// 	// let ratio = (dimensions.width * 100 / items[i].dimensions.height) + parseInt(extraWidth);
+	// 	// return 'style="flex: ' + ratio + '1 ' + ratio + 'px; width: ' + ratio + 'px;"';
+	// });
 
 	//pass through copy for css javascript and internal images
 	eleventyConfig.addPassthroughCopy({ "_includes/assets": "includes/assets" });

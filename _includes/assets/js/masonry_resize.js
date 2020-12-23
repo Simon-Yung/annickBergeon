@@ -61,7 +61,7 @@ function resize(className,scale) {
 var items;
 const scalingRatio = Number( document.getElementById('gallery').dataset.scalingRatio );
 window.onload = function(event){
-	//resize('preview', scalingRatio);
+	resize('preview', scalingRatio);
 	// resizeLastLine();
 };
 
