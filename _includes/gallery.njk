@@ -52,6 +52,7 @@ background_color: "rgba(0,0,0,0.5)"
 
 				<div class="gallery">
 					<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}"
+					{{ object.image | masonry(page.fileSlug,website.completeUrl,object.extra_width) }}
 	{# the gallery dom id (in this case id=gallery ) followed by the id number(aka loop index) #}
 					id="gallery{{loop.index}}" 
 	{# the second argument is mendatory, use the gallery dom id #}
@@ -63,6 +64,7 @@ background_color: "rgba(0,0,0,0.5)"
 					data-description="{{object.description | replace('\n', '<br>') }}" >
 				{%- else %}
 					<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/thumbnails/{{object.image}}" 
+					{{ object.image | masonry(page.fileSlug,website.completeUrl,object.extra_width) }}
 	{# the gallery dom id (in this case id=gallery ) followed by the id number(aka loop index) #}
 					id="gallery{{loop.index}}" 
 	{# the second argument is mendatory, use the gallery dom id #}

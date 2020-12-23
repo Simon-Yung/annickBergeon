@@ -1,4 +1,5 @@
 const fg = require('fast-glob');
+const sizeOf = require('image-size');
 
 function searchByGlob(glob){
 	//this function DOES NOT return the initial / slash 
@@ -30,7 +31,12 @@ module.exports = function(eleventyConfig) {
 		}
 
 	);
-		 
+
+	eleventyConfig.addFilter("masonry", function(value,collectionName,websiteUrl,extraWidth) {
+		let dimensions = sizeOf( '/gallery/' + collectionName + '/thumbnails/' + value);
+		let ratio = (dimensions.width * 100 / items[i].dimensions.height) + parseInt(extraWidth);
+		return 'style="flex: ' + ratio + '1 ' + ratio + 'px; width: ' + ratio + 'px;"';
+	});
 
 	//pass through copy for css javascript and internal images
 	eleventyConfig.addPassthroughCopy({ "_includes/assets": "includes/assets" });
